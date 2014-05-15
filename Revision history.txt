@@ -1,0 +1,26 @@
+; History
+; Version 1.0.0.0 First release 10.07.13 Border Installer
+; Version 1.0.0.1 Added autocad menu ribbon 11.07.13
+; Version 1.0.0.2 Copy symbol block and excel files 11.07.13
+; Version 1.0.0.3 Added odcl, layer and font
+; Version 1.0.0.4 Added print style, toolpalettes and templates
+; Version 1.0.0.5 Second install on site
+; Version 1.0.0.6 Overhaul of install method
+	; create script to run autocad setup
+	;File "first setup.lsp" ; transfer to script
+	;open Autocad with script
+	;OpenDCL runntime installs in shell
+	;File "setborder.lsp" ; deprecated - will need to modify to extract from template if continued
+	;File "TPA BORDER A0.dwg" ; deprecated
+	;File "Print template.dwg" ; deprecated
+	;File "first setup.lsp"  ; deprecated - transfer to script
+	;File "Symbols.dwg" ; deprecated
+	File "Layers List TPA Master.xls" ; deprecated - all layers are preloaded (still included)
+	File "LayerControl.odcl" ; deprecated - interface for layer control (still included)
+; Version 1.0.0.7 Overhaul of install method continued
+	;Added to do list in script for actions
+; version 1.0.1.0 First complete installation
+; version 1.0.1.1 Added TPA Blocks Template for inserting symbols
+; version 1.0.1.2 Added simpler templates for start
+	; modified setborder.lsp to extract from template - moderately stable - need to remove model option
+; version 1.0.1.3 Changed install location to non-admin area

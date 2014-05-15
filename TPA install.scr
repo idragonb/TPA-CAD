@@ -1,0 +1,30 @@
+(defun addStringIfUnique (strlong join str)
+	(if (wcmatch strlong (strcat "*" str "*"))
+		strlong
+		(strcat strlong join str)
+	)
+)
+(setq TPA_PATH (vl-registry-read  "HKEY_CURRENT_USER\\SOFTWARE\\TPA CAD Standards" "InstallDirectory"))
+(setvar "TRUSTEDPATHS" (addStringIfUnique (getvar "TRUSTEDPATHS") ";" (strcat TPA_PATH "\\...")))
+(vlax-invoke-method (vlax-get-property (vlax-get-acad-object) 'MenuGroups) 'Load (strcat TPA_PATH "\\TPA CAD ribbon.cuix"))
+(vl-catch-all-error-p (progn 
+							(command "WSSAVE" "TPA")
+							(while (= (getvar "cmdnames") "WSSAVE") (command "Y"))
+							)
+)
+(vla-put-ToolPalettePath
+	(vla-get-files (vla-get-preferences (vlax-get-acad-object)))
+	(addStringIfUnique
+		(vla-get-ToolPalettePath (vla-get-files	(vla-get-preferences (vlax-get-acad-object))))
+		";"
+		(strcat TPA_PATH "\\Palettes")
+	)
+)
+(setenv "ACAD" (addStringIfUnique (getenv "ACAD") ";" (strcat TPA_PATH)))
+(setenv "ACAD" (addStringIfUnique (getenv "ACAD") ";" (strcat TPA_PATH "\\Palettes")))
+(setenv "QnewTemplate" (strcat TPA_PATH "\\TPA Imperial Start.dwt"))
+(alert "\n****************Exit Autocad to complete install process**********************")
+(princ)
+
+
+

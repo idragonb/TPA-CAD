@@ -1,0 +1,3 @@
+(setq TPA_PATH (vl-registry-read  "HKEY_CURRENT_USER\\SOFTWARE\\TPA CAD Standards" "InstallDirectory"))
+(load (strcat TPA_PATH "\\setborder.lsp"))
+(load (strcat TPA_PATH "\\LayerControl.lsp"))

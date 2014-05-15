@@ -1,0 +1,16 @@
+(defun spaceeven ()
+	(setq pt (getpoint "\nChoose start point"))
+	(setq xx (nth 0 pt))
+	(setq yy (nth 1 pt))
+	
+	
+	;(setq c10 (cdr (assoc 10 entlist)))
+	(while (setq ent (car (entsel "\nPick on ent to move")))
+		(setq entlist (entget ent))
+		(setq entlist (subst (cons 10 pt) (assoc 10 entlist) entlist))
+		(entmod entlist)
+		(entupd ent)
+		(setq yy (+ yy 8))
+		(setq pt (list xx yy))
+	)
+)

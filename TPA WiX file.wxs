@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="DCE13507-B723-4B05-922D-84B6FF5A94C9" Name="TPA Cad Standards install" Language="1033" Version="1.0.1.4" Manufacturer="Open5D Michael Berman" UpgradeCode="AA99F9F2-AEFE-401A-A7F4-B6D8E5647389">
+        <Package Description="Test file in a Product" Comments="Simple test" InstallerVersion="200" Compressed="yes" />
+        <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Id="WORK" Name="TPA Cad Standards">
+                    <Component Id="ACDB.PAT" DiskId="1" Guid="9C529A17-C2D8-40FE-877C-A2E38E391EE7">
+                        <File Id="ACDB.PAT" Name="acdb.pat" Source="D:\WORK\2061 Cad Standards Architect\Work\acdb.pat" />
+                    </Component>
+                    <Component Id="ENTSEARCH.LSP" DiskId="1" Guid="A9E68F06-C837-4B67-BF8A-0A78333B57FD">
+                        <File Id="ENTSEARCH.LSP" Name="entsearch.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\entsearch.lsp" />
+                    </Component>
+                    <Component Id="FIRST_SETUP.LSP" DiskId="1" Guid="A7C99FE8-C150-4E49-8C3C-826EA03B2BF1">
+                        <File Id="FIRST_SETUP.LSP" Name="first setup.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\first setup.lsp" />
+                    </Component>
+                    <Component Id="LAYERCONTROL.LSP" DiskId="1" Guid="FE256B9E-9F71-4F01-8F5C-C033099042E6">
+                        <File Id="LAYERCONTROL.LSP" Name="LayerControl.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\LayerControl.lsp" />
+                    </Component>
+                    <Component Id="LAYERCONTROL.ODCL" DiskId="1" Guid="D77BC432-2C86-4FB4-8D5F-FFAA03BFECE6">
+                        <File Id="LAYERCONTROL.ODCL" Name="LayerControl.odcl" Source="D:\WORK\2061 Cad Standards Architect\Work\LayerControl.odcl" />
+                    </Component>
+                    <Component Id="LAYERS_LIST_TPA_MASTER.XLS" DiskId="1" Guid="080EE01E-84A9-4084-9FB6-B942E4C08957">
+                        <File Id="LAYERS_LIST_TPA_MASTER.XLS" Name="Layers List TPA Master.xls" Source="D:\WORK\2061 Cad Standards Architect\Work\Layers List TPA Master.xls" />
+                    </Component>
+                    <Component Id="LOGO.ICO" DiskId="1" Guid="7042450F-DC87-46A7-BD10-20EE7E7BE9A1">
+                        <File Id="LOGO.ICO" Name="logo.ico" Source="D:\WORK\2061 Cad Standards Architect\Work\logo.ico" />
+                    </Component>
+                    <Component Id="OPENDCL.RUNTIME.7.0.0.12.MSI" DiskId="1" Guid="DB404E11-2AC3-4DA4-90EB-07DB9E063C4D">
+                        <File Id="OPENDCL.RUNTIME.7.0.0.12.MSI" Name="OpenDCL.Runtime.7.0.0.12.msi" Source="D:\WORK\2061 Cad Standards Architect\Work\OpenDCL.Runtime.7.0.0.12.msi" />
+                    </Component>
+                    <Component Id="SETBORDER.LSP" DiskId="1" Guid="BBEEF350-0020-4162-8A9E-FCA71646CEDA">
+                        <File Id="SETBORDER.LSP" Name="setborder.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\setborder.lsp" />
+                    </Component>
+                    <Component Id="SETSYMBOLS.LSP" DiskId="1" Guid="F877D750-7FBC-4B01-88C1-09D3270CFBBC">
+                        <File Id="SETSYMBOLS.LSP" Name="setsymbols.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\setsymbols.lsp" />
+                    </Component>
+                    <Component Id="SHEET_LIST.XLSX" DiskId="1" Guid="8882330E-14C3-4D62-896D-86F31E81B08A">
+                        <File Id="SHEET_LIST.XLSX" Name="Sheet list.xlsx" Source="D:\WORK\2061 Cad Standards Architect\Work\Sheet list.xlsx" />
+                    </Component>
+                    <Component Id="TABLE_UPDATE.LSP" DiskId="1" Guid="E8A1A910-F108-48C2-95C3-950F3B3B40A2">
+                        <File Id="TABLE_UPDATE.LSP" Name="Table update.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\Table update.lsp" />
+                    </Component>
+                    <Component Id="TEMPLATEPICKER.LSP" DiskId="1" Guid="C9555FB1-8C37-434B-8A60-1A0367D32C93">
+                        <File Id="TEMPLATEPICKER.LSP" Name="TemplatePicker.lsp" Source="D:\WORK\2061 Cad Standards Architect\Work\TemplatePicker.lsp" />
+                    </Component>
+                    <Component Id="TPA_BLOCKS_TEMPLATE.DWG" DiskId="1" Guid="3DFBA180-4E4D-4485-A715-B35955BB9CE5">
+                        <File Id="TPA_BLOCKS_TEMPLATE.DWG" Name="TPA Blocks Template.dwg" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Blocks Template.dwg" />
+                    </Component>
+                    <Component Id="TPA_CAD_RIBBON.CUIX" DiskId="1" Guid="B7F4D2B1-5974-4374-8860-93A8F4BC2AEF">
+                        <File Id="TPA_CAD_RIBBON.CUIX" Name="TPA CAD ribbon.cuix" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA CAD ribbon.cuix" />
+                    </Component>
+                    <Component Id="TPA_CAD_RIBBON.MNL" DiskId="1" Guid="41EE2CC4-F585-464D-B398-48D169408985">
+                        <File Id="TPA_CAD_RIBBON.MNL" Name="TPA CAD ribbon.mnl" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA CAD ribbon.mnl" />
+                    </Component>
+                    <Component Id="TPA_IMPERIAL_START.DWT" DiskId="1" Guid="FD7863D4-1FBC-4817-B6FC-003D1377CD7E">
+                        <File Id="TPA_IMPERIAL_START.DWT" Name="TPA Imperial Start.dwt" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Imperial Start.dwt" />
+                    </Component>
+                    <Component Id="TPA_IMPERIAL.DWT" DiskId="1" Guid="09F77959-140C-4C32-AEDB-1AA4359AB46B">
+                        <File Id="TPA_IMPERIAL.DWT" Name="TPA Imperial.dwt" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Imperial.dwt" />
+                    </Component>
+                    <Component Id="TPA_INSTALL.SCR" DiskId="1" Guid="F78B59AD-6A9F-4BC5-BD98-0060871EFAC6">
+                        <File Id="TPA_INSTALL.SCR" Name="TPA install.scr" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA install.scr" />
+                    </Component>
+                    <Component Id="TPA_LOGO_MASTER.DWG" DiskId="1" Guid="BB8207EB-D104-445B-855F-00C589732BAC">
+                        <File Id="TPA_LOGO_MASTER.DWG" Name="TPA Logo master.dwg" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Logo master.dwg" />
+                    </Component>
+                    <Component Id="TPA_LOGO.JPG" DiskId="1" Guid="062A8216-3560-4DD7-81CD-D752FACEC8CD">
+                        <File Id="TPA_LOGO.JPG" Name="TPA Logo.jpg" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Logo.jpg" />
+                    </Component>
+                    <Component Id="TPA_METRIC_START.DWT" DiskId="1" Guid="983165FA-AD2D-46DF-93C9-71280429B971">
+                        <File Id="TPA_METRIC_START.DWT" Name="TPA Metric Start.dwt" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Metric Start.dwt" />
+                    </Component>
+                    <Component Id="TPA_METRIC.DWG" DiskId="1" Guid="F1198F98-EC8A-421F-A5C7-0C2E125FDB81">
+                        <File Id="TPA_METRIC.DWG" Name="TPA Metric.dwg" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Metric.dwg" />
+                    </Component>
+                    <Component Id="TPA_METRIC.DWT" DiskId="1" Guid="5028242C-360B-4860-B622-CAA12BF908BB">
+                        <File Id="TPA_METRIC.DWT" Name="TPA Metric.dwt" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA Metric.dwt" />
+                    </Component>
+                    <Component Id="TPA.STB" DiskId="1" Guid="5DB3B691-8E59-484F-960C-7349DEB590F6">
+                        <File Id="TPA.STB" Name="TPA.stb" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA.stb" />
+                    </Component>
+                    <Component Id="TPA.XPG" DiskId="1" Guid="5C46F3E0-C1A0-4F8A-AE47-C4F6DBCD9373">
+                        <File Id="TPA.XPG" Name="TPA.xpg" Source="D:\WORK\2061 Cad Standards Architect\Work\TPA.xpg" />
+                    </Component>
+                    <Directory Id="PALETTES_1" Name="Palettes">
+                        <Component Id="TPA_ACCESS_CONTROL_BC9619CF_0498_4581_9C54_41C95D96673A.ATC_1" DiskId="1" Guid="4DE01BCA-5820-4386-871A-57D3980B9597">
+                            <File Id="TPA_ACCESS_CONTROL_BC9619CF_0498_4581_9C54_41C95D96673A.ATC_1" Name="TPA Access Control_BC9619CF-0498-4581-9C54-41C95D96673A.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Access Control_BC9619CF-0498-4581-9C54-41C95D96673A.atc" />
+                        </Component>
+                        <Component Id="TPA_COMMUNICATION_D91E6CC9_0D62_48DD_AC52_5E615AFC40CD.ATC_1" DiskId="1" Guid="879F3400-CA98-44BB-8328-CD44011E3010">
+                            <File Id="TPA_COMMUNICATION_D91E6CC9_0D62_48DD_AC52_5E615AFC40CD.ATC_1" Name="TPA Communication_D91E6CC9-0D62-48DD-AC52-5E615AFC40CD.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Communication_D91E6CC9-0D62-48DD-AC52-5E615AFC40CD.atc" />
+                        </Component>
+                        <Component Id="TPA_FIRE_ALARM_21698E45_0EA4_40C5_BB29_436550603DAA.ATC_1" DiskId="1" Guid="874F13B2-054C-4A06-9781-81C6A3CA5C94">
+                            <File Id="TPA_FIRE_ALARM_21698E45_0EA4_40C5_BB29_436550603DAA.ATC_1" Name="TPA Fire Alarm_21698E45-0EA4-40C5-BB29-436550603DAA.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Fire Alarm_21698E45-0EA4-40C5-BB29-436550603DAA.atc" />
+                        </Component>
+                        <Component Id="TPA_GRAPHIC_SYMBOLS_30FC80E0_7F50_4D18_942B_9F607CC82FE8.ATC_1" DiskId="1" Guid="B0F85C41-379F-404A-A3CA-E02E8DB4CE82">
+                            <File Id="TPA_GRAPHIC_SYMBOLS_30FC80E0_7F50_4D18_942B_9F607CC82FE8.ATC_1" Name="TPA Graphic Symbols_30FC80E0-7F50-4D18-942B-9F607CC82FE8.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Graphic Symbols_30FC80E0-7F50-4D18-942B-9F607CC82FE8.atc" />
+                        </Component>
+                        <Component Id="TPA_HATCHES_9D3FCCDA_CF32_401C_A46C_A3E52BE62A65.ATC_1" DiskId="1" Guid="C0F91C1F-FBF8-43C6-B41D-7FC51F1E852C">
+                            <File Id="TPA_HATCHES_9D3FCCDA_CF32_401C_A46C_A3E52BE62A65.ATC_1" Name="TPA Hatches_9D3FCCDA-CF32-401C-A46C-A3E52BE62A65.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Hatches_9D3FCCDA-CF32-401C-A46C-A3E52BE62A65.atc" />
+                        </Component>
+                        <Component Id="TPA_LIGHTING_95564819_39D1_40C2_A345_C5EFAD26185F.ATC_1" DiskId="1" Guid="658DB920-C444-4DD3-8AE7-55B28706C878">
+                            <File Id="TPA_LIGHTING_95564819_39D1_40C2_A345_C5EFAD26185F.ATC_1" Name="TPA Lighting_95564819-39D1-40C2-A345-C5EFAD26185F.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Lighting_95564819-39D1-40C2-A345-C5EFAD26185F.atc" />
+                        </Component>
+                        <Component Id="TPA_POWER_C094C185_53E3_4A67_BB33_4FBECD88A20A.ATC_1" DiskId="1" Guid="880E2968-8192-49A1-A4B0-C1E2B01C4812">
+                            <File Id="TPA_POWER_C094C185_53E3_4A67_BB33_4FBECD88A20A.ATC_1" Name="TPA Power_C094C185-53E3-4A67-BB33-4FBECD88A20A.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Power_C094C185-53E3-4A67-BB33-4FBECD88A20A.atc" />
+                        </Component>
+                        <Component Id="TPA_SECURITY_530A0244_0057_413E_AAE0_B0188FB8C314.ATC_1" DiskId="1" Guid="CB90A90C-B766-45C1-81CC-23FDEA4BF3DC">
+                            <File Id="TPA_SECURITY_530A0244_0057_413E_AAE0_B0188FB8C314.ATC_1" Name="TPA Security_530A0244-0057-413E-AAE0-B0188FB8C314.atc" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\TPA Security_530A0244-0057-413E-AAE0-B0188FB8C314.atc" />
+                        </Component>
+                        <Directory Id="IMAGES_1" Name="Images">
+                            <Component Id="_2_WAY_SWITCH32.PNG" DiskId="1" Guid="3EE285AD-BC02-4118-9C16-AFE863911AD7">
+                                <File Id="_2_WAY_SWITCH32.PNG" Name="2 WAY SWITCH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\2 WAY SWITCH32.PNG" />
+                            </Component>
+                            <Component Id="_2_WAY_SWITCH64.PNG" DiskId="1" Guid="A274A4AE-A303-4352-8396-C3B55C28E260">
+                                <File Id="_2_WAY_SWITCH64.PNG" Name="2 WAY SWITCH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\2 WAY SWITCH64.PNG" />
+                            </Component>
+                            <Component Id="_220_VOLT_RECEPTACLE32.PNG" DiskId="1" Guid="46E0F1F0-B6E8-450D-9357-A50D78D1FBC2">
+                                <File Id="_220_VOLT_RECEPTACLE32.PNG" Name="220 VOLT RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\220 VOLT RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="_220_VOLT_RECEPTACLE64.PNG" DiskId="1" Guid="4E1700D8-6994-4319-A12B-6B12FDC6F201">
+                                <File Id="_220_VOLT_RECEPTACLE64.PNG" Name="220 VOLT RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\220 VOLT RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="_3_WAY_SWITCH32.PNG" DiskId="1" Guid="25D84679-13F6-45CC-A1C3-E3D720A1F5FC">
+                                <File Id="_3_WAY_SWITCH32.PNG" Name="3 WAY SWITCH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\3 WAY SWITCH32.PNG" />
+                            </Component>
+                            <Component Id="_3_WAY_SWITCH64.PNG" DiskId="1" Guid="E92CA723-13DC-422A-ABFC-1615246AF76E">
+                                <File Id="_3_WAY_SWITCH64.PNG" Name="3 WAY SWITCH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\3 WAY SWITCH64.PNG" />
+                            </Component>
+                            <Component Id="_4_WAY_SWITCH32.PNG" DiskId="1" Guid="8871A47C-CF6A-49EB-AE23-D0ABBA4A8543">
+                                <File Id="_4_WAY_SWITCH32.PNG" Name="4 WAY SWITCH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\4 WAY SWITCH32.PNG" />
+                            </Component>
+                            <Component Id="_4_WAY_SWITCH64.PNG" DiskId="1" Guid="66E5F8C4-64AD-4A12-8094-8D0103A563F0">
+                                <File Id="_4_WAY_SWITCH64.PNG" Name="4 WAY SWITCH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\4 WAY SWITCH64.PNG" />
+                            </Component>
+                            <Component Id="ABOVE_COUNTER_RECEPTACLE32.PNG" DiskId="1" Guid="16BCA471-7478-4AAA-BDA6-BD0100227C38">
+                                <File Id="ABOVE_COUNTER_RECEPTACLE32.PNG" Name="ABOVE COUNTER RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ABOVE COUNTER RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="ABOVE_COUNTER_RECEPTACLE64.PNG" DiskId="1" Guid="76F353B9-1977-4325-8F35-B9E0BF7466EC">
+                                <File Id="ABOVE_COUNTER_RECEPTACLE64.PNG" Name="ABOVE COUNTER RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ABOVE COUNTER RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="ANSI3132.PNG" DiskId="1" Guid="D4728A3D-14A9-4CB7-9A96-FC0A35598D38">
+                                <File Id="ANSI3132.PNG" Name="ANSI3132.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3132.PNG" />
+                            </Component>
+                            <Component Id="ANSI3164.PNG" DiskId="1" Guid="7770F044-D7CA-4B5D-BF9C-E8A7CE87D156">
+                                <File Id="ANSI3164.PNG" Name="ANSI3164.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3164.PNG" />
+                            </Component>
+                            <Component Id="ANSI3232.PNG" DiskId="1" Guid="AD2089F4-6AFF-4CEF-99EC-9C10CC78E723">
+                                <File Id="ANSI3232.PNG" Name="ANSI3232.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3232.PNG" />
+                            </Component>
+                            <Component Id="ANSI3264.PNG" DiskId="1" Guid="908CFD01-9D81-4598-9927-AE5E3137AA84">
+                                <File Id="ANSI3264.PNG" Name="ANSI3264.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3264.PNG" />
+                            </Component>
+                            <Component Id="ANSI3732.PNG" DiskId="1" Guid="E568F4EB-C3EB-42E4-9B2E-A20598E84DEE">
+                                <File Id="ANSI3732.PNG" Name="ANSI3732.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3732.PNG" />
+                            </Component>
+                            <Component Id="ANSI3764.PNG" DiskId="1" Guid="8F695E33-017A-43F4-A7BF-55C836968D1B">
+                                <File Id="ANSI3764.PNG" Name="ANSI3764.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ANSI3764.PNG" />
+                            </Component>
+                            <Component Id="AR_BRSTD32.PNG" DiskId="1" Guid="D3738320-AE14-45D7-8531-49003F26B7A5">
+                                <File Id="AR_BRSTD32.PNG" Name="AR-BRSTD32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-BRSTD32.PNG" />
+                            </Component>
+                            <Component Id="AR_BRSTD64.PNG" DiskId="1" Guid="F5CA11FA-AA9E-4F28-91E2-98116C66C977">
+                                <File Id="AR_BRSTD64.PNG" Name="AR-BRSTD64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-BRSTD64.PNG" />
+                            </Component>
+                            <Component Id="AR_CONC32.PNG" DiskId="1" Guid="AFC56C81-016C-4082-8A15-222F1291E40A">
+                                <File Id="AR_CONC32.PNG" Name="AR-CONC32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-CONC32.PNG" />
+                            </Component>
+                            <Component Id="AR_CONC64.PNG" DiskId="1" Guid="6E39FBD8-B8C6-419F-B1E8-DBAD70A446AA">
+                                <File Id="AR_CONC64.PNG" Name="AR-CONC64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-CONC64.PNG" />
+                            </Component>
+                            <Component Id="AR_SAND32.PNG" DiskId="1" Guid="73FFBE31-C841-4A18-8DBF-2FBAEB0B611F">
+                                <File Id="AR_SAND32.PNG" Name="AR-SAND32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-SAND32.PNG" />
+                            </Component>
+                            <Component Id="AR_SAND64.PNG" DiskId="1" Guid="A09DD0F5-E356-4B88-A6AD-B1F8338EB226">
+                                <File Id="AR_SAND64.PNG" Name="AR-SAND64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\AR-SAND64.PNG" />
+                            </Component>
+                            <Component Id="BELL_CHIMES32.PNG" DiskId="1" Guid="0820842A-A07C-4394-B6F8-12DE42A2E5F2">
+                                <File Id="BELL_CHIMES32.PNG" Name="BELL CHIMES32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\BELL CHIMES32.PNG" />
+                            </Component>
+                            <Component Id="BELL_CHIMES64.PNG" DiskId="1" Guid="474A4339-B9D2-444A-96D1-AB46CAB9D8EC">
+                                <File Id="BELL_CHIMES64.PNG" Name="BELL CHIMES64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\BELL CHIMES64.PNG" />
+                            </Component>
+                            <Component Id="BELL_PUSH32.PNG" DiskId="1" Guid="7D38B043-C7B7-4BBD-820B-7C3959B0A967">
+                                <File Id="BELL_PUSH32.PNG" Name="Bell Push32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Bell Push32.PNG" />
+                            </Component>
+                            <Component Id="BELL_PUSH64.PNG" DiskId="1" Guid="F657B6B2-BAFD-4419-A2D0-86D25734FF87">
+                                <File Id="BELL_PUSH64.PNG" Name="Bell Push64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Bell Push64.PNG" />
+                            </Component>
+                            <Component Id="BELOW_COUNTER_RECEPTACLE32.PNG" DiskId="1" Guid="2E96753D-C431-4E9F-8D5F-A3F1C5FE00D4">
+                                <File Id="BELOW_COUNTER_RECEPTACLE32.PNG" Name="BELOW COUNTER RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\BELOW COUNTER RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="BELOW_COUNTER_RECEPTACLE64.PNG" DiskId="1" Guid="86D8D1BE-2BC5-41A3-8AAA-379E92455A96">
+                                <File Id="BELOW_COUNTER_RECEPTACLE64.PNG" Name="BELOW COUNTER RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\BELOW COUNTER RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA.PNG" DiskId="1" Guid="1A29F412-0FCA-45FC-93F6-D229885A0751">
+                                <File Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA.PNG" Name="Block tool_00368765-492F-4EC3-8F55-1CA5D21704AA.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_00368765-492F-4EC3-8F55-1CA5D21704AA.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA_2.PNG" DiskId="1" Guid="12BDC9D0-BA05-4585-B636-1F8ABC852256">
+                                <File Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA_2.PNG" Name="Block tool_00368765-492F-4EC3-8F55-1CA5D21704AA_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_00368765-492F-4EC3-8F55-1CA5D21704AA_2.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0.PNG" DiskId="1" Guid="B3CD7F11-A3D5-4C2F-BE4D-0C977E4C2384">
+                                <File Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0.PNG" Name="Block tool_84DA8E97-25A4-4448-9C96-CB63952F11E0.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_84DA8E97-25A4-4448-9C96-CB63952F11E0.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0_2.PNG" DiskId="1" Guid="5FC48AE8-2B16-4565-A05E-3D9C6DD4F8A0">
+                                <File Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0_2.PNG" Name="Block tool_84DA8E97-25A4-4448-9C96-CB63952F11E0_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_84DA8E97-25A4-4448-9C96-CB63952F11E0_2.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348.PNG" DiskId="1" Guid="CCED963F-0B54-43A0-A5E4-DF3798DEABA5">
+                                <File Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348.PNG" Name="Block tool_8CCE0F3A-2705-45A4-9CDE-F70023ED5348.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_8CCE0F3A-2705-45A4-9CDE-F70023ED5348.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348_2.PNG" DiskId="1" Guid="B22BB4AB-7CA5-4C24-BDCB-EE7BE94C45CC">
+                                <File Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348_2.PNG" Name="Block tool_8CCE0F3A-2705-45A4-9CDE-F70023ED5348_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_8CCE0F3A-2705-45A4-9CDE-F70023ED5348_2.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD.PNG" DiskId="1" Guid="3E3B0AE8-D59D-44EF-8B27-D2B61EC083CD">
+                                <File Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD.PNG" Name="Block tool_B0331748-97E4-4F5D-A9B2-9CBC48C4E4CD.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_B0331748-97E4-4F5D-A9B2-9CBC48C4E4CD.PNG" />
+                            </Component>
+                            <Component Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD_2.PNG" DiskId="1" Guid="16E857F3-3A47-4F65-ABAD-4942CC4D452E">
+                                <File Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD_2.PNG" Name="Block tool_B0331748-97E4-4F5D-A9B2-9CBC48C4E4CD_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Block tool_B0331748-97E4-4F5D-A9B2-9CBC48C4E4CD_2.PNG" />
+                            </Component>
+                            <Component Id="BUILDING_SECTION32.PNG" DiskId="1" Guid="9678EB3C-1B54-4477-9E0C-36B837F531F4">
+                                <File Id="BUILDING_SECTION32.PNG" Name="Building Section32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Building Section32.PNG" />
+                            </Component>
+                            <Component Id="BUILDING_SECTION64.PNG" DiskId="1" Guid="D55E0D24-1352-4367-8771-1F05B8BCE2AD">
+                                <File Id="BUILDING_SECTION64.PNG" Name="Building Section64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Building Section64.PNG" />
+                            </Component>
+                            <Component Id="BUZZER32.PNG" DiskId="1" Guid="D6FB467A-BFFB-45A0-8F04-23DB3332FE88">
+                                <File Id="BUZZER32.PNG" Name="Buzzer32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Buzzer32.PNG" />
+                            </Component>
+                            <Component Id="BUZZER64.PNG" DiskId="1" Guid="CC1C337B-12FC-4EA9-B147-6C1C35E85679">
+                                <File Id="BUZZER64.PNG" Name="Buzzer64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Buzzer64.PNG" />
+                            </Component>
+                            <Component Id="C.C._T.V._CAMERA32.PNG" DiskId="1" Guid="DC0A7405-F918-4C2C-A047-C04C2442BED3">
+                                <File Id="C.C._T.V._CAMERA32.PNG" Name="C.C. T.V. CAMERA32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\C.C. T.V. CAMERA32.PNG" />
+                            </Component>
+                            <Component Id="C.C._T.V._CAMERA64.PNG" DiskId="1" Guid="712D90C5-50C5-4C5F-95F5-D9AD863B32D3">
+                                <File Id="C.C._T.V._CAMERA64.PNG" Name="C.C. T.V. CAMERA64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\C.C. T.V. CAMERA64.PNG" />
+                            </Component>
+                            <Component Id="CARD_READER32.PNG" DiskId="1" Guid="5C036C99-6E02-48AD-AF04-1C41FCAC2ABA">
+                                <File Id="CARD_READER32.PNG" Name="CARD READER32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CARD READER32.PNG" />
+                            </Component>
+                            <Component Id="CARD_READER64.PNG" DiskId="1" Guid="4E96EAB3-7F03-40FA-AEAE-F8F85AC43DF8">
+                                <File Id="CARD_READER64.PNG" Name="CARD READER64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CARD READER64.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA__INFRA_RED_32.PNG" DiskId="1" Guid="56DBC55B-71FF-4BDC-83A8-0B1479EA588B">
+                                <File Id="CCTV_CAMERA__INFRA_RED_32.PNG" Name="CCTV CAMERA (INFRA RED)32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA (INFRA RED)32.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA__INFRA_RED_64.PNG" DiskId="1" Guid="9379884A-1769-46AC-93EE-013C612D9F6C">
+                                <File Id="CCTV_CAMERA__INFRA_RED_64.PNG" Name="CCTV CAMERA (INFRA RED)64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA (INFRA RED)64.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_32.PNG" DiskId="1" Guid="218F5608-D878-40A2-BD23-AAC34102C0F4">
+                                <File Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_32.PNG" Name="CCTV CAMERA (PTZ - PAN TILT ZOOM)32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA (PTZ - PAN TILT ZOOM)32.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_64.PNG" DiskId="1" Guid="FF2840A7-28FB-4801-879F-6173E8139ED8">
+                                <File Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_64.PNG" Name="CCTV CAMERA (PTZ - PAN TILT ZOOM)64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA (PTZ - PAN TILT ZOOM)64.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_32.PNG" DiskId="1" Guid="45B0C34F-2686-4DEA-84E0-A2B89493FDE0">
+                                <File Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_32.PNG" Name="CCTV CAMERA INFRA RED (PTZ - PAN TILT ZOOM)32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA INFRA RED (PTZ - PAN TILT ZOOM)32.PNG" />
+                            </Component>
+                            <Component Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_64.PNG" DiskId="1" Guid="A92D51D4-6533-4ACC-A24C-B222048B8B28">
+                                <File Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_64.PNG" Name="CCTV CAMERA INFRA RED (PTZ - PAN TILT ZOOM)64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV CAMERA INFRA RED (PTZ - PAN TILT ZOOM)64.PNG" />
+                            </Component>
+                            <Component Id="CCTV_MONITOR32.PNG" DiskId="1" Guid="2EBC6A89-E79C-4A67-BBD0-3E0E475DAD16">
+                                <File Id="CCTV_MONITOR32.PNG" Name="CCTV MONITOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV MONITOR32.PNG" />
+                            </Component>
+                            <Component Id="CCTV_MONITOR64.PNG" DiskId="1" Guid="06B64EF6-A261-4658-A126-F101C99B4BD6">
+                                <File Id="CCTV_MONITOR64.PNG" Name="CCTV MONITOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CCTV MONITOR64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_CARBON_MONOXIDE32.PNG" DiskId="1" Guid="7360E402-278F-4508-9981-BD09CA518469">
+                                <File Id="CEILING_CARBON_MONOXIDE32.PNG" Name="CEILING CARBON MONOXIDE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING CARBON MONOXIDE32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_CARBON_MONOXIDE64.PNG" DiskId="1" Guid="53D9FE01-116C-4C66-BE4E-E05FE5A5F7D2">
+                                <File Id="CEILING_CARBON_MONOXIDE64.PNG" Name="CEILING CARBON MONOXIDE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING CARBON MONOXIDE64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FAN_W_LIGHT32.PNG" DiskId="1" Guid="846A90B4-DF90-457E-A3BD-2C21574841D3">
+                                <File Id="CEILING_FAN_W_LIGHT32.PNG" Name="CEILING FAN W-LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FAN W-LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FAN_W_LIGHT64.PNG" DiskId="1" Guid="CD59D004-29B0-47A0-8087-5CAA04E6BA8D">
+                                <File Id="CEILING_FAN_W_LIGHT64.PNG" Name="CEILING FAN W-LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FAN W-LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FAN32.PNG" DiskId="1" Guid="5AB090C8-2D56-4C1A-ACF9-9B7EEAD0287A">
+                                <File Id="CEILING_FAN32.PNG" Name="CEILING FAN32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FAN32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FAN64.PNG" DiskId="1" Guid="BAC62D2E-FABF-402C-AD7B-B2EFA79CAB1A">
+                                <File Id="CEILING_FAN64.PNG" Name="CEILING FAN64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FAN64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FIXTURE32.PNG" DiskId="1" Guid="7F7BFAB8-3FB7-4497-9552-7BD64F150A7C">
+                                <File Id="CEILING_FIXTURE32.PNG" Name="CEILING FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_FIXTURE64.PNG" DiskId="1" Guid="B72B510E-4484-415F-8717-7BE2389B7A1A">
+                                <File Id="CEILING_FIXTURE64.PNG" Name="CEILING FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" DiskId="1" Guid="9F0145B5-46EB-4EEC-AFAB-9FB7EA0BB587">
+                                <File Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" Name="CEILING MOUNTED COMPACT FLUORESCENT LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED COMPACT FLUORESCENT LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" DiskId="1" Guid="C48AB467-3E06-4948-8325-127F7C5CCDE5">
+                                <File Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" Name="CEILING MOUNTED COMPACT FLUORESCENT LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED COMPACT FLUORESCENT LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_SMOKE_DETECTOR32.PNG" DiskId="1" Guid="5CBB9C64-3A8A-4B46-A1A6-9D5E696D65FA">
+                                <File Id="CEILING_MOUNTED_SMOKE_DETECTOR32.PNG" Name="CEILING MOUNTED SMOKE DETECTOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED SMOKE DETECTOR32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_SMOKE_DETECTOR64.PNG" DiskId="1" Guid="49DDBAD4-A959-4A04-8E4F-3BD10925AC8F">
+                                <File Id="CEILING_MOUNTED_SMOKE_DETECTOR64.PNG" Name="CEILING MOUNTED SMOKE DETECTOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED SMOKE DETECTOR64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_SPEAKER32.PNG" DiskId="1" Guid="0CF560E3-D0DF-4C92-90B8-596704F2DEE1">
+                                <File Id="CEILING_MOUNTED_SPEAKER32.PNG" Name="CEILING MOUNTED SPEAKER32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED SPEAKER32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_SPEAKER64.PNG" DiskId="1" Guid="227C1B0D-7804-4F7C-8428-90E5BB232A16">
+                                <File Id="CEILING_MOUNTED_SPEAKER64.PNG" Name="CEILING MOUNTED SPEAKER64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING MOUNTED SPEAKER64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD32.PNG" DiskId="1" Guid="DB34D8FD-B678-4798-8A70-4529FEA8FF4C">
+                                <File Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD32.PNG" Name="Ceiling Mounted Track Complete with Head32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Ceiling Mounted Track Complete with Head32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD64.PNG" DiskId="1" Guid="ADF01E0B-D54D-4B04-9692-C706A90C24B4">
+                                <File Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD64.PNG" Name="Ceiling Mounted Track Complete with Head64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Ceiling Mounted Track Complete with Head64.PNG" />
+                            </Component>
+                            <Component Id="CEILING_RECEPTACLE32.PNG" DiskId="1" Guid="B06F7D17-6228-46B2-BEC8-BD5C4F151296">
+                                <File Id="CEILING_RECEPTACLE32.PNG" Name="CEILING RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="CEILING_RECEPTACLE64.PNG" DiskId="1" Guid="E38F65A4-47D8-4B99-8879-A1F224AF36AC">
+                                <File Id="CEILING_RECEPTACLE64.PNG" Name="CEILING RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CEILING RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="COVE_LIGHT32.PNG" DiskId="1" Guid="DF72C419-B0E4-42DE-914A-FF9C1E7DE40A">
+                                <File Id="COVE_LIGHT32.PNG" Name="Cove Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Cove Light32.PNG" />
+                            </Component>
+                            <Component Id="COVE_LIGHT64.PNG" DiskId="1" Guid="9F2ABCD3-751E-4CE6-A322-E58F1EA9D7BF">
+                                <File Id="COVE_LIGHT64.PNG" Name="Cove Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Cove Light64.PNG" />
+                            </Component>
+                            <Component Id="CROSS32.PNG" DiskId="1" Guid="044F6AC4-9CFF-47DA-AF95-DFC421F858B5">
+                                <File Id="CROSS32.PNG" Name="CROSS32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CROSS32.PNG" />
+                            </Component>
+                            <Component Id="CROSS64.PNG" DiskId="1" Guid="CFEFD201-DCEB-4979-A8BE-A8AFD97FEE0B">
+                                <File Id="CROSS64.PNG" Name="CROSS64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\CROSS64.PNG" />
+                            </Component>
+                            <Component Id="DATA_LINE32.PNG" DiskId="1" Guid="288BDF59-AB5B-43FB-9D3E-7513E64359C4">
+                                <File Id="DATA_LINE32.PNG" Name="Data Line32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Data Line32.PNG" />
+                            </Component>
+                            <Component Id="DATA_LINE64.PNG" DiskId="1" Guid="B86BF0B8-DF7F-41B8-AF3E-6D96A768A68E">
+                                <File Id="DATA_LINE64.PNG" Name="Data Line64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Data Line64.PNG" />
+                            </Component>
+                            <Component Id="DETAIL_REFERENCE32.PNG" DiskId="1" Guid="7D966EAB-4898-45FC-90C2-8C73F887EB76">
+                                <File Id="DETAIL_REFERENCE32.PNG" Name="Detail Reference32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Detail Reference32.PNG" />
+                            </Component>
+                            <Component Id="DETAIL_REFERENCE64.PNG" DiskId="1" Guid="2353795A-B04F-4588-A9FA-83306691DE13">
+                                <File Id="DETAIL_REFERENCE64.PNG" Name="Detail Reference64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Detail Reference64.PNG" />
+                            </Component>
+                            <Component Id="DIMMER_SWITCH32.PNG" DiskId="1" Guid="6C2CB907-ECDB-42C5-B845-A89D45C2657E">
+                                <File Id="DIMMER_SWITCH32.PNG" Name="DIMMER SWITCH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DIMMER SWITCH32.PNG" />
+                            </Component>
+                            <Component Id="DIMMER_SWITCH64.PNG" DiskId="1" Guid="86D8CE96-AB2F-416E-9131-58A7A56C2B7C">
+                                <File Id="DIMMER_SWITCH64.PNG" Name="DIMMER SWITCH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DIMMER SWITCH64.PNG" />
+                            </Component>
+                            <Component Id="DISCONNECT32.PNG" DiskId="1" Guid="6EA84BCE-BD55-4BD9-B4AA-C6DFF63055D3">
+                                <File Id="DISCONNECT32.PNG" Name="DISCONNECT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DISCONNECT32.PNG" />
+                            </Component>
+                            <Component Id="DISCONNECT64.PNG" DiskId="1" Guid="6C4A0B32-B71A-45B1-9B6C-00267F9F5478">
+                                <File Id="DISCONNECT64.PNG" Name="DISCONNECT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DISCONNECT64.PNG" />
+                            </Component>
+                            <Component Id="DOME_CAMERA32.PNG" DiskId="1" Guid="98CA9376-1854-4B0E-ABED-835B07CD0E80">
+                                <File Id="DOME_CAMERA32.PNG" Name="DOME CAMERA32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOME CAMERA32.PNG" />
+                            </Component>
+                            <Component Id="DOME_CAMERA64.PNG" DiskId="1" Guid="78C669DF-33D7-494F-AC58-1508CBD19B3F">
+                                <File Id="DOME_CAMERA64.PNG" Name="DOME CAMERA64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOME CAMERA64.PNG" />
+                            </Component>
+                            <Component Id="DOME_LIGHT32.PNG" DiskId="1" Guid="5CB24B7C-3EB0-463D-A18F-2B3C80019359">
+                                <File Id="DOME_LIGHT32.PNG" Name="Dome Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Dome Light32.PNG" />
+                            </Component>
+                            <Component Id="DOME_LIGHT64.PNG" DiskId="1" Guid="639C5785-E41B-4F7F-983C-7BFD763E1C67">
+                                <File Id="DOME_LIGHT64.PNG" Name="Dome Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Dome Light64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL32.PNG" DiskId="1" Guid="DEA2F4B7-4ED4-49D8-A52B-F69AC0AA5AE6">
+                                <File Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL32.PNG" Name="DOOR ACCESS AUDIO ENTRY PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS AUDIO ENTRY PANEL32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL64.PNG" DiskId="1" Guid="A156DFC7-6B87-4D1D-9379-D486C59C1348">
+                                <File Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL64.PNG" Name="DOOR ACCESS AUDIO ENTRY PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS AUDIO ENTRY PANEL64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE32.PNG" DiskId="1" Guid="971457D1-0DE5-4C91-BEE8-F275B7B65D6C">
+                                <File Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE32.PNG" Name="DOOR ACCESS AUDIO ENTRY PHONE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS AUDIO ENTRY PHONE32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE64.PNG" DiskId="1" Guid="F010F4D0-0302-4B0D-96B6-EC7793AAADF5">
+                                <File Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE64.PNG" Name="DOOR ACCESS AUDIO ENTRY PHONE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS AUDIO ENTRY PHONE64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL32.PNG" DiskId="1" Guid="725F3CD7-AE8F-4EAE-8B76-D11CDE10E48B">
+                                <File Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL32.PNG" Name="DOOR ACCESS VIDEO ENTRY PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS VIDEO ENTRY PANEL32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL64.PNG" DiskId="1" Guid="AF041B77-56C6-4592-9279-083D8B391824">
+                                <File Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL64.PNG" Name="DOOR ACCESS VIDEO ENTRY PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS VIDEO ENTRY PANEL64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_VIDEO_MONITOR32.PNG" DiskId="1" Guid="4FA88979-BF8D-4046-9C3B-E2DC416DA579">
+                                <File Id="DOOR_ACCESS_VIDEO_MONITOR32.PNG" Name="DOOR ACCESS VIDEO MONITOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS VIDEO MONITOR32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_ACCESS_VIDEO_MONITOR64.PNG" DiskId="1" Guid="CCB2A417-1DA9-4D0C-A45D-167427629F28">
+                                <File Id="DOOR_ACCESS_VIDEO_MONITOR64.PNG" Name="DOOR ACCESS VIDEO MONITOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR ACCESS VIDEO MONITOR64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_BELL_PUSH32.PNG" DiskId="1" Guid="120EB982-E4A2-4F11-A8C8-880CAC567142">
+                                <File Id="DOOR_BELL_PUSH32.PNG" Name="DOOR BELL PUSH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR BELL PUSH32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_BELL_PUSH64.PNG" DiskId="1" Guid="3D8BB9F5-60B9-43E3-90B0-CF7AF321B437">
+                                <File Id="DOOR_BELL_PUSH64.PNG" Name="DOOR BELL PUSH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR BELL PUSH64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_NUMBER32.PNG" DiskId="1" Guid="631F30EB-CFEB-45FB-94B7-D5E19C4BC147">
+                                <File Id="DOOR_NUMBER32.PNG" Name="Door Number32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Door Number32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_NUMBER64.PNG" DiskId="1" Guid="554A9F87-695D-461A-BA54-905DE1272507">
+                                <File Id="DOOR_NUMBER64.PNG" Name="Door Number64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Door Number64.PNG" />
+                            </Component>
+                            <Component Id="DOOR_RELEASE32.PNG" DiskId="1" Guid="3F6F046A-D764-4154-9DB4-577A8AACA85B">
+                                <File Id="DOOR_RELEASE32.PNG" Name="DOOR RELEASE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR RELEASE32.PNG" />
+                            </Component>
+                            <Component Id="DOOR_RELEASE64.PNG" DiskId="1" Guid="3A8D0FD6-B53D-4E63-A45F-D1EA8A6E1898">
+                                <File Id="DOOR_RELEASE64.PNG" Name="DOOR RELEASE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DOOR RELEASE64.PNG" />
+                            </Component>
+                            <Component Id="DUPLEX_RECEPTACLE32.PNG" DiskId="1" Guid="63657523-E015-43DE-B5E8-4FCB00CB0FC2">
+                                <File Id="DUPLEX_RECEPTACLE32.PNG" Name="DUPLEX RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DUPLEX RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="DUPLEX_RECEPTACLE64.PNG" DiskId="1" Guid="A8835962-E522-46B0-A996-A1AD15CF4339">
+                                <File Id="DUPLEX_RECEPTACLE64.PNG" Name="DUPLEX RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\DUPLEX RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="EARTH32.PNG" DiskId="1" Guid="77CA63DA-A64A-40F3-B397-187FB317D8B4">
+                                <File Id="EARTH32.PNG" Name="EARTH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EARTH32.PNG" />
+                            </Component>
+                            <Component Id="EARTH64.PNG" DiskId="1" Guid="FD67930B-3E65-494C-B6B3-1610DDE87183">
+                                <File Id="EARTH64.PNG" Name="EARTH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EARTH64.PNG" />
+                            </Component>
+                            <Component Id="ELECTRIC_HEATER32.PNG" DiskId="1" Guid="75FED263-9854-408D-8ED8-90F2B506F8F6">
+                                <File Id="ELECTRIC_HEATER32.PNG" Name="Electric Heater32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Electric Heater32.PNG" />
+                            </Component>
+                            <Component Id="ELECTRIC_HEATER64.PNG" DiskId="1" Guid="CD9D1401-858C-4508-AB33-B317A37822A3">
+                                <File Id="ELECTRIC_HEATER64.PNG" Name="Electric Heater64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Electric Heater64.PNG" />
+                            </Component>
+                            <Component Id="ELECTRIC_WATER_HEATER32.PNG" DiskId="1" Guid="BA778CAE-AC68-44E7-906E-4055F044E224">
+                                <File Id="ELECTRIC_WATER_HEATER32.PNG" Name="Electric Water Heater32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Electric Water Heater32.PNG" />
+                            </Component>
+                            <Component Id="ELECTRIC_WATER_HEATER64.PNG" DiskId="1" Guid="51B719AA-76AB-4DA0-AFCC-6B5F9BE4EAFA">
+                                <File Id="ELECTRIC_WATER_HEATER64.PNG" Name="Electric Water Heater64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Electric Water Heater64.PNG" />
+                            </Component>
+                            <Component Id="ELECTRICAL_PANEL_BOX32.PNG" DiskId="1" Guid="0C6D7AF2-73B8-444F-B601-CB18D0666048">
+                                <File Id="ELECTRICAL_PANEL_BOX32.PNG" Name="ELECTRICAL PANEL BOX32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ELECTRICAL PANEL BOX32.PNG" />
+                            </Component>
+                            <Component Id="ELECTRICAL_PANEL_BOX64.PNG" DiskId="1" Guid="F5C244AD-5B8D-4957-B459-A9D54DB8F9E5">
+                                <File Id="ELECTRICAL_PANEL_BOX64.PNG" Name="ELECTRICAL PANEL BOX64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\ELECTRICAL PANEL BOX64.PNG" />
+                            </Component>
+                            <Component Id="ELEVATION32.PNG" DiskId="1" Guid="7A27A3F3-DD84-4672-B2E7-D3A3A5CE9D3B">
+                                <File Id="ELEVATION32.PNG" Name="Elevation32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Elevation32.PNG" />
+                            </Component>
+                            <Component Id="ELEVATION64.PNG" DiskId="1" Guid="5D9503BD-0417-43C5-8EC4-9E85BB4B9B16">
+                                <File Id="ELEVATION64.PNG" Name="Elevation64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Elevation64.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_132.PNG" DiskId="1" Guid="2DCBFB32-C81A-4E96-880D-EDDBF24F41F6">
+                                <File Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_132.PNG" Name="EMERGENCY EXIT SIGN - DIRECTIONAL 132.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - DIRECTIONAL 132.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_164.PNG" DiskId="1" Guid="0136FC60-2A33-4740-B613-0731726284FD">
+                                <File Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_164.PNG" Name="EMERGENCY EXIT SIGN - DIRECTIONAL 164.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - DIRECTIONAL 164.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL32.PNG" DiskId="1" Guid="9ED5BC5A-626A-43DE-85A2-4AF57FC4182F">
+                                <File Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL32.PNG" Name="EMERGENCY EXIT SIGN - DIRECTIONAL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - DIRECTIONAL32.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL64.PNG" DiskId="1" Guid="890E30BF-A526-4CEE-8930-CE99778BAF16">
+                                <File Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL64.PNG" Name="EMERGENCY EXIT SIGN - DIRECTIONAL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - DIRECTIONAL64.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_132.PNG" DiskId="1" Guid="EDEEF074-CB5C-4244-B103-F9C62D673AFC">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_132.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 132.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 132.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_164.PNG" DiskId="1" Guid="5F6BFEE3-1DAF-4660-A7A2-8ADBEF7E3F0B">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_164.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 164.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 164.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_232.PNG" DiskId="1" Guid="A8BCD0FB-E1E8-4006-989B-C2F0FE237E46">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_232.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 232.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 232.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_264.PNG" DiskId="1" Guid="6CF17510-DF49-4762-8734-002A24285BF3">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_264.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 264.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL 264.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL32.PNG" DiskId="1" Guid="D4BBE937-8D1F-4321-946E-F2029F0B61CB">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL32.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL32.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL64.PNG" DiskId="1" Guid="B1930E45-8CDC-4201-B398-F3A9CA55965C">
+                                <File Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL64.PNG" Name="EMERGENCY EXIT SIGN - MULTI DIRECTIONAL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN - MULTI DIRECTIONAL64.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN32.PNG" DiskId="1" Guid="0AC39E8B-7360-406A-BBAD-CE3C382B4834">
+                                <File Id="EMERGENCY_EXIT_SIGN32.PNG" Name="EMERGENCY EXIT SIGN32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN32.PNG" />
+                            </Component>
+                            <Component Id="EMERGENCY_EXIT_SIGN64.PNG" DiskId="1" Guid="CAA2C58D-9DF2-41D6-B77F-049EEDE5BD5D">
+                                <File Id="EMERGENCY_EXIT_SIGN64.PNG" Name="EMERGENCY EXIT SIGN64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EMERGENCY EXIT SIGN64.PNG" />
+                            </Component>
+                            <Component Id="EXHAUST_FAN_W_LIGHT32.PNG" DiskId="1" Guid="C5AACFE1-2E73-4F68-8D7D-6E8F477F173A">
+                                <File Id="EXHAUST_FAN_W_LIGHT32.PNG" Name="EXHAUST FAN W-LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EXHAUST FAN W-LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="EXHAUST_FAN_W_LIGHT64.PNG" DiskId="1" Guid="37604252-0E94-4FB5-8564-0DF3C279777C">
+                                <File Id="EXHAUST_FAN_W_LIGHT64.PNG" Name="EXHAUST FAN W-LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EXHAUST FAN W-LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="EXHAUST_FAN32.PNG" DiskId="1" Guid="0844738B-5BCB-4C3E-8521-E67FE98D6560">
+                                <File Id="EXHAUST_FAN32.PNG" Name="EXHAUST FAN32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EXHAUST FAN32.PNG" />
+                            </Component>
+                            <Component Id="EXHAUST_FAN64.PNG" DiskId="1" Guid="E7562351-7915-43AB-B5C9-B2EDB899D755">
+                                <File Id="EXHAUST_FAN64.PNG" Name="EXHAUST FAN64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EXHAUST FAN64.PNG" />
+                            </Component>
+                            <Component Id="EYEBALL_RECESSED_FIXTURE32.PNG" DiskId="1" Guid="DA4836BE-61B9-454D-9080-6E8263A6895A">
+                                <File Id="EYEBALL_RECESSED_FIXTURE32.PNG" Name="EYEBALL RECESSED FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EYEBALL RECESSED FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="EYEBALL_RECESSED_FIXTURE64.PNG" DiskId="1" Guid="E922838F-94F0-43DB-929D-B65B99D96314">
+                                <File Id="EYEBALL_RECESSED_FIXTURE64.PNG" Name="EYEBALL RECESSED FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\EYEBALL RECESSED FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="FIRE_ALARM_CONTROL_PANEL32.PNG" DiskId="1" Guid="3E4E8F02-FC1D-422C-8F8E-E47AA2564FE0">
+                                <File Id="FIRE_ALARM_CONTROL_PANEL32.PNG" Name="FIRE ALARM CONTROL PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FIRE ALARM CONTROL PANEL32.PNG" />
+                            </Component>
+                            <Component Id="FIRE_ALARM_CONTROL_PANEL64.PNG" DiskId="1" Guid="57FFA4C6-600B-4842-B0F8-1183ECD266A9">
+                                <File Id="FIRE_ALARM_CONTROL_PANEL64.PNG" Name="FIRE ALARM CONTROL PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FIRE ALARM CONTROL PANEL64.PNG" />
+                            </Component>
+                            <Component Id="FLOODLIGHT_FIXTURE32.PNG" DiskId="1" Guid="8E08E765-A02E-45B2-B3E6-CFDFA95EC4C2">
+                                <File Id="FLOODLIGHT_FIXTURE32.PNG" Name="FLOODLIGHT FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLOODLIGHT FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="FLOODLIGHT_FIXTURE64.PNG" DiskId="1" Guid="96241FD0-2C84-465C-9297-75F450D0BA6B">
+                                <File Id="FLOODLIGHT_FIXTURE64.PNG" Name="FLOODLIGHT FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLOODLIGHT FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="FLOOR_FINISH_CHANGE32.PNG" DiskId="1" Guid="824345E5-9E9F-4A88-BC58-C5BF25105755">
+                                <File Id="FLOOR_FINISH_CHANGE32.PNG" Name="Floor finish change32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Floor finish change32.PNG" />
+                            </Component>
+                            <Component Id="FLOOR_FINISH_CHANGE64.PNG" DiskId="1" Guid="B381FA45-7887-456E-81D7-D8A4FD7F9B0F">
+                                <File Id="FLOOR_FINISH_CHANGE64.PNG" Name="Floor finish change64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Floor finish change64.PNG" />
+                            </Component>
+                            <Component Id="FLOOR_RECEPTACLE32.PNG" DiskId="1" Guid="F3D978FF-844C-4907-AB07-3DA78FA31DF6">
+                                <File Id="FLOOR_RECEPTACLE32.PNG" Name="FLOOR RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLOOR RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="FLOOR_RECEPTACLE64.PNG" DiskId="1" Guid="F1D3BAF2-6C49-4F53-B192-AB77F1C04127">
+                                <File Id="FLOOR_RECEPTACLE64.PNG" Name="FLOOR RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLOOR RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="FLUORESCENT_FIXTURE32.PNG" DiskId="1" Guid="B6937811-CF26-4813-A60E-19FADB833397">
+                                <File Id="FLUORESCENT_FIXTURE32.PNG" Name="FLUORESCENT FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLUORESCENT FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="FLUORESCENT_FIXTURE64.PNG" DiskId="1" Guid="070F0865-E617-4913-9166-B26A0B324A38">
+                                <File Id="FLUORESCENT_FIXTURE64.PNG" Name="FLUORESCENT FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLUORESCENT FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="FLUSH_MOUNTED_POWER_PANEL32.PNG" DiskId="1" Guid="4ECB1DA0-E4EF-4D93-A128-7A30945511A0">
+                                <File Id="FLUSH_MOUNTED_POWER_PANEL32.PNG" Name="FLUSH MOUNTED POWER PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLUSH MOUNTED POWER PANEL32.PNG" />
+                            </Component>
+                            <Component Id="FLUSH_MOUNTED_POWER_PANEL64.PNG" DiskId="1" Guid="BFD59B8F-14E2-42CC-96D0-CF4754F398C0">
+                                <File Id="FLUSH_MOUNTED_POWER_PANEL64.PNG" Name="FLUSH MOUNTED POWER PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\FLUSH MOUNTED POWER PANEL64.PNG" />
+                            </Component>
+                            <Component Id="GOST_GLASS32.PNG" DiskId="1" Guid="398D7729-BE46-46C6-841E-275980D2AC85">
+                                <File Id="GOST_GLASS32.PNG" Name="GOST_GLASS32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GOST_GLASS32.PNG" />
+                            </Component>
+                            <Component Id="GOST_GLASS64.PNG" DiskId="1" Guid="A8FC6378-CFD2-42AA-9303-171A78A4D98C">
+                                <File Id="GOST_GLASS64.PNG" Name="GOST_GLASS64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GOST_GLASS64.PNG" />
+                            </Component>
+                            <Component Id="GRAVEL32.PNG" DiskId="1" Guid="CAFD56BC-58F7-400F-AA4D-6A80F5814806">
+                                <File Id="GRAVEL32.PNG" Name="GRAVEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GRAVEL32.PNG" />
+                            </Component>
+                            <Component Id="GRAVEL64.PNG" DiskId="1" Guid="2BC6C8E9-D5EB-4E4E-883F-93C1157BE38B">
+                                <File Id="GRAVEL64.PNG" Name="GRAVEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GRAVEL64.PNG" />
+                            </Component>
+                            <Component Id="GRID_BUBBLE32.PNG" DiskId="1" Guid="DCEF1278-493C-453B-A235-FC0D36E610A6">
+                                <File Id="GRID_BUBBLE32.PNG" Name="Grid Bubble32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Grid Bubble32.PNG" />
+                            </Component>
+                            <Component Id="GRID_BUBBLE64.PNG" DiskId="1" Guid="F38096F6-0ECA-486D-B210-F7F9E83BDDD2">
+                                <File Id="GRID_BUBBLE64.PNG" Name="Grid Bubble64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Grid Bubble64.PNG" />
+                            </Component>
+                            <Component Id="GROUND_FAULT_RECEPT.32.PNG" DiskId="1" Guid="C546B7FA-7759-4222-B83F-0A32CFEB1882">
+                                <File Id="GROUND_FAULT_RECEPT.32.PNG" Name="GROUND FAULT RECEPT.32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GROUND FAULT RECEPT.32.PNG" />
+                            </Component>
+                            <Component Id="GROUND_FAULT_RECEPT.64.PNG" DiskId="1" Guid="B11444E7-8867-4207-87DB-201FCA2E5C81">
+                                <File Id="GROUND_FAULT_RECEPT.64.PNG" Name="GROUND FAULT RECEPT.64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GROUND FAULT RECEPT.64.PNG" />
+                            </Component>
+                            <Component Id="GYPSUM32.PNG" DiskId="1" Guid="D3E85326-4ED5-4543-BCA2-C6CEFB0C4DB2">
+                                <File Id="GYPSUM32.PNG" Name="GYPSUM32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GYPSUM32.PNG" />
+                            </Component>
+                            <Component Id="GYPSUM64.PNG" DiskId="1" Guid="86E265CA-ADEA-4748-A8D8-E1ABA8BC6CA7">
+                                <File Id="GYPSUM64.PNG" Name="GYPSUM64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\GYPSUM64.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9.PNG" DiskId="1" Guid="CD612FA9-0431-4913-9987-276DADAD5726">
+                                <File Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9.PNG" Name="Hatch tool_1070B06E-D2EF-4A64-9D2A-905BB5C048D9.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_1070B06E-D2EF-4A64-9D2A-905BB5C048D9.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9_2.PNG" DiskId="1" Guid="630A1A50-0856-4EDF-ABC1-12F57E5F7560">
+                                <File Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9_2.PNG" Name="Hatch tool_1070B06E-D2EF-4A64-9D2A-905BB5C048D9_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_1070B06E-D2EF-4A64-9D2A-905BB5C048D9_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807.PNG" DiskId="1" Guid="68829E52-79C4-413A-91BF-27163D30F616">
+                                <File Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807.PNG" Name="Hatch tool_29EA7E5F-2355-40C7-B955-04105DC55807.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_29EA7E5F-2355-40C7-B955-04105DC55807.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807_2.PNG" DiskId="1" Guid="C0FE4684-4275-4BCF-9AE2-849ADA480D3B">
+                                <File Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807_2.PNG" Name="Hatch tool_29EA7E5F-2355-40C7-B955-04105DC55807_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_29EA7E5F-2355-40C7-B955-04105DC55807_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A.PNG" DiskId="1" Guid="A806FDEF-D45D-49ED-8397-FF242D94B47C">
+                                <File Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A.PNG" Name="Hatch tool_2B02008A-9A5D-4B9B-ADCB-FCDE2AB2DE4A.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_2B02008A-9A5D-4B9B-ADCB-FCDE2AB2DE4A.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A_2.PNG" DiskId="1" Guid="6255AD1C-AE46-42FE-B4CD-87E967F6F6B6">
+                                <File Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A_2.PNG" Name="Hatch tool_2B02008A-9A5D-4B9B-ADCB-FCDE2AB2DE4A_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_2B02008A-9A5D-4B9B-ADCB-FCDE2AB2DE4A_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E.PNG" DiskId="1" Guid="60679A10-2FD8-4774-95F3-DAD72BDFD666">
+                                <File Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E.PNG" Name="Hatch tool_2B2C024C-A4EA-4F66-BB9C-8868EF6B4F3E.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_2B2C024C-A4EA-4F66-BB9C-8868EF6B4F3E.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E_2.PNG" DiskId="1" Guid="EA2F9F04-74DF-4104-9359-63728302A052">
+                                <File Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E_2.PNG" Name="Hatch tool_2B2C024C-A4EA-4F66-BB9C-8868EF6B4F3E_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_2B2C024C-A4EA-4F66-BB9C-8868EF6B4F3E_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693.PNG" DiskId="1" Guid="F7625A7F-86ED-4985-B181-337FBBAFEC1A">
+                                <File Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693.PNG" Name="Hatch tool_3C351D1F-553B-4F4D-9782-5B5A2E276693.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_3C351D1F-553B-4F4D-9782-5B5A2E276693.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693_2.PNG" DiskId="1" Guid="A313348E-57B0-4560-BB69-D5B4C60282EE">
+                                <File Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693_2.PNG" Name="Hatch tool_3C351D1F-553B-4F4D-9782-5B5A2E276693_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_3C351D1F-553B-4F4D-9782-5B5A2E276693_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711.PNG" DiskId="1" Guid="69C0B4E6-F14F-41F2-A32E-6AA33E359B0D">
+                                <File Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711.PNG" Name="Hatch tool_3DD4B75E-E995-4B6F-AF1C-06E3B7BDD711.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_3DD4B75E-E995-4B6F-AF1C-06E3B7BDD711.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711_2.PNG" DiskId="1" Guid="A9BD0A2F-61F4-4E8E-A668-8350E12EE654">
+                                <File Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711_2.PNG" Name="Hatch tool_3DD4B75E-E995-4B6F-AF1C-06E3B7BDD711_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_3DD4B75E-E995-4B6F-AF1C-06E3B7BDD711_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB.PNG" DiskId="1" Guid="5F2C225B-47D5-4EAB-BE2D-C9D9ACD4DA2E">
+                                <File Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB.PNG" Name="Hatch tool_5303FB57-CAB5-437B-9978-8D6242CCD4EB.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_5303FB57-CAB5-437B-9978-8D6242CCD4EB.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB_2.PNG" DiskId="1" Guid="6C2F9A91-81BE-41D2-919F-66053AA814F4">
+                                <File Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB_2.PNG" Name="Hatch tool_5303FB57-CAB5-437B-9978-8D6242CCD4EB_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_5303FB57-CAB5-437B-9978-8D6242CCD4EB_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9.PNG" DiskId="1" Guid="CC524AC5-EBF3-4DF1-8A46-F4D6D4094758">
+                                <File Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9.PNG" Name="Hatch tool_530B9C4E-F256-4DF8-9C13-EAB40B419BC9.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_530B9C4E-F256-4DF8-9C13-EAB40B419BC9.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9_2.PNG" DiskId="1" Guid="B057A494-C1D3-42FB-AC0A-B0B86457C651">
+                                <File Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9_2.PNG" Name="Hatch tool_530B9C4E-F256-4DF8-9C13-EAB40B419BC9_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_530B9C4E-F256-4DF8-9C13-EAB40B419BC9_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602.PNG" DiskId="1" Guid="2DCC51BD-8E35-4097-9D61-72A2298ACFEC">
+                                <File Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602.PNG" Name="Hatch tool_54470CCD-BA4A-4FF8-A846-0B8D5C310602.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_54470CCD-BA4A-4FF8-A846-0B8D5C310602.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602_2.PNG" DiskId="1" Guid="B6E4F222-6954-482C-8A86-DC0A669A009A">
+                                <File Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602_2.PNG" Name="Hatch tool_54470CCD-BA4A-4FF8-A846-0B8D5C310602_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_54470CCD-BA4A-4FF8-A846-0B8D5C310602_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB.PNG" DiskId="1" Guid="C605A02D-AC33-4FD0-9D1E-BF59F238CDA3">
+                                <File Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB.PNG" Name="Hatch tool_6966B164-66D3-44C4-82C7-E0BCA2AD0CDB.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_6966B164-66D3-44C4-82C7-E0BCA2AD0CDB.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB_2.PNG" DiskId="1" Guid="D4B20882-8592-44F7-9080-C29953B74CF9">
+                                <File Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB_2.PNG" Name="Hatch tool_6966B164-66D3-44C4-82C7-E0BCA2AD0CDB_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_6966B164-66D3-44C4-82C7-E0BCA2AD0CDB_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F.PNG" DiskId="1" Guid="3A257270-046F-4C07-8630-973E080F52E3">
+                                <File Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F.PNG" Name="Hatch tool_6B3F5778-D92D-49F8-90F1-A3C63F152E4F.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_6B3F5778-D92D-49F8-90F1-A3C63F152E4F.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F_2.PNG" DiskId="1" Guid="35FF78D0-3296-437B-A72C-267D648544B9">
+                                <File Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F_2.PNG" Name="Hatch tool_6B3F5778-D92D-49F8-90F1-A3C63F152E4F_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_6B3F5778-D92D-49F8-90F1-A3C63F152E4F_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7.PNG" DiskId="1" Guid="D9420D14-BA90-44D2-9A1F-FD8D9EAD133B">
+                                <File Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7.PNG" Name="Hatch tool_75EC4615-C746-420B-891B-0C0A13A77FF7.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_75EC4615-C746-420B-891B-0C0A13A77FF7.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7_2.PNG" DiskId="1" Guid="A1BC65FC-E141-4518-959A-D98263F173C4">
+                                <File Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7_2.PNG" Name="Hatch tool_75EC4615-C746-420B-891B-0C0A13A77FF7_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_75EC4615-C746-420B-891B-0C0A13A77FF7_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0.PNG" DiskId="1" Guid="A931E7DA-1804-4386-ACA6-815C70F8DF59">
+                                <File Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0.PNG" Name="Hatch tool_8D2EA578-5797-4654-A856-F6D1165492B0.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_8D2EA578-5797-4654-A856-F6D1165492B0.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0_2.PNG" DiskId="1" Guid="6B59FC5F-5222-4AF8-81AB-19F9B806126E">
+                                <File Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0_2.PNG" Name="Hatch tool_8D2EA578-5797-4654-A856-F6D1165492B0_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_8D2EA578-5797-4654-A856-F6D1165492B0_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD.PNG" DiskId="1" Guid="A7A77A4C-B337-499B-B5C6-79C26A36CC61">
+                                <File Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD.PNG" Name="Hatch tool_AF5FA740-A7E6-4FD5-BB3A-6C3500C0B5FD.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_AF5FA740-A7E6-4FD5-BB3A-6C3500C0B5FD.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD_2.PNG" DiskId="1" Guid="04A89110-17C2-4664-B533-F168B17DD539">
+                                <File Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD_2.PNG" Name="Hatch tool_AF5FA740-A7E6-4FD5-BB3A-6C3500C0B5FD_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_AF5FA740-A7E6-4FD5-BB3A-6C3500C0B5FD_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166.PNG" DiskId="1" Guid="84456A01-6253-4799-BDD9-CB622761BB52">
+                                <File Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166.PNG" Name="Hatch tool_B14E313C-7AA6-4BDA-9A87-594494927166.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_B14E313C-7AA6-4BDA-9A87-594494927166.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166_2.PNG" DiskId="1" Guid="8CA7D755-9820-4C1D-BF6A-DB8BFB49BB34">
+                                <File Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166_2.PNG" Name="Hatch tool_B14E313C-7AA6-4BDA-9A87-594494927166_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_B14E313C-7AA6-4BDA-9A87-594494927166_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3.PNG" DiskId="1" Guid="0721F27A-A5C4-4CD5-9647-E53A6D0792B7">
+                                <File Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3.PNG" Name="Hatch tool_CAB98B8A-26A3-48F0-950C-69169C8FA8D3.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_CAB98B8A-26A3-48F0-950C-69169C8FA8D3.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3_2.PNG" DiskId="1" Guid="20A4059F-7A28-4179-88A3-E25CE65A90CC">
+                                <File Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3_2.PNG" Name="Hatch tool_CAB98B8A-26A3-48F0-950C-69169C8FA8D3_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_CAB98B8A-26A3-48F0-950C-69169C8FA8D3_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68.PNG" DiskId="1" Guid="20C24367-7D8A-4915-8BA1-4E11773695D8">
+                                <File Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68.PNG" Name="Hatch tool_D664142E-8867-4550-9CE1-09F2AADA4F68.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_D664142E-8867-4550-9CE1-09F2AADA4F68.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68_2.PNG" DiskId="1" Guid="FBF85977-5E29-4007-A935-841796320136">
+                                <File Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68_2.PNG" Name="Hatch tool_D664142E-8867-4550-9CE1-09F2AADA4F68_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_D664142E-8867-4550-9CE1-09F2AADA4F68_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9.PNG" DiskId="1" Guid="3E6543DB-AE0A-496A-9206-006FFADF1A39">
+                                <File Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9.PNG" Name="Hatch tool_DBD239AA-BAF9-40E8-96E3-54F61B61CDB9.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_DBD239AA-BAF9-40E8-96E3-54F61B61CDB9.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9_2.PNG" DiskId="1" Guid="686BCBC4-9087-4C38-A77E-EFB45462E669">
+                                <File Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9_2.PNG" Name="Hatch tool_DBD239AA-BAF9-40E8-96E3-54F61B61CDB9_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_DBD239AA-BAF9-40E8-96E3-54F61B61CDB9_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2.PNG" DiskId="1" Guid="DABC7B19-9FE3-4D1F-88DD-36303F5BBE69">
+                                <File Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2.PNG" Name="Hatch tool_E43045ED-5C4C-46EC-81EC-CA4E74C378C2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_E43045ED-5C4C-46EC-81EC-CA4E74C378C2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2_2.PNG" DiskId="1" Guid="63A86481-ACD1-4EEA-B0F0-55A131280BED">
+                                <File Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2_2.PNG" Name="Hatch tool_E43045ED-5C4C-46EC-81EC-CA4E74C378C2_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_E43045ED-5C4C-46EC-81EC-CA4E74C378C2_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F.PNG" DiskId="1" Guid="516C6464-4766-46D6-819E-AB8FDF34CDA0">
+                                <File Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F.PNG" Name="Hatch tool_FB83FD13-771E-4A7A-A4A6-7DCA22455B0F.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_FB83FD13-771E-4A7A-A4A6-7DCA22455B0F.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F_2.PNG" DiskId="1" Guid="2B10B509-D2EC-4C20-BA77-5809912B2DE6">
+                                <File Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F_2.PNG" Name="Hatch tool_FB83FD13-771E-4A7A-A4A6-7DCA22455B0F_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_FB83FD13-771E-4A7A-A4A6-7DCA22455B0F_2.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A.PNG" DiskId="1" Guid="4F87D553-5682-48F0-B015-E33E9720253B">
+                                <File Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A.PNG" Name="Hatch tool_FEF91A1C-94E7-488B-8E59-1F1AF07A018A.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_FEF91A1C-94E7-488B-8E59-1F1AF07A018A.PNG" />
+                            </Component>
+                            <Component Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A_2.PNG" DiskId="1" Guid="FA875E15-5722-4307-9C2F-100C27A2675E">
+                                <File Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A_2.PNG" Name="Hatch tool_FEF91A1C-94E7-488B-8E59-1F1AF07A018A_2.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Hatch tool_FEF91A1C-94E7-488B-8E59-1F1AF07A018A_2.PNG" />
+                            </Component>
+                            <Component Id="HEAT_DETECTOR32.PNG" DiskId="1" Guid="D3963863-8C34-4A49-A505-41919256F689">
+                                <File Id="HEAT_DETECTOR32.PNG" Name="HEAT DETECTOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HEAT DETECTOR32.PNG" />
+                            </Component>
+                            <Component Id="HEAT_DETECTOR64.PNG" DiskId="1" Guid="395BF119-7C4A-4D1B-8F29-5BA43B4E6D43">
+                                <File Id="HEAT_DETECTOR64.PNG" Name="HEAT DETECTOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HEAT DETECTOR64.PNG" />
+                            </Component>
+                            <Component Id="HEAT_LIGHT___EXHAUST_FAN32.PNG" DiskId="1" Guid="09A83DF2-FEFB-46F2-9E77-5A6C98859181">
+                                <File Id="HEAT_LIGHT___EXHAUST_FAN32.PNG" Name="HEAT_LIGHT &amp; EXHAUST FAN32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HEAT_LIGHT &amp; EXHAUST FAN32.PNG" />
+                            </Component>
+                            <Component Id="HEAT_LIGHT___EXHAUST_FAN64.PNG" DiskId="1" Guid="865DEDD1-9E38-42DF-A814-C6FD75E0AF02">
+                                <File Id="HEAT_LIGHT___EXHAUST_FAN64.PNG" Name="HEAT_LIGHT &amp; EXHAUST FAN64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HEAT_LIGHT &amp; EXHAUST FAN64.PNG" />
+                            </Component>
+                            <Component Id="HVAC_COMPRESSOR32.PNG" DiskId="1" Guid="F8EBDD4B-F685-47AA-A220-36B1EFA76F9F">
+                                <File Id="HVAC_COMPRESSOR32.PNG" Name="HVAC COMPRESSOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HVAC COMPRESSOR32.PNG" />
+                            </Component>
+                            <Component Id="HVAC_COMPRESSOR64.PNG" DiskId="1" Guid="6AB0A97D-BD90-44EC-AFD9-56880ED0AE9E">
+                                <File Id="HVAC_COMPRESSOR64.PNG" Name="HVAC COMPRESSOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\HVAC COMPRESSOR64.PNG" />
+                            </Component>
+                            <Component Id="INSOLATION32.PNG" DiskId="1" Guid="48ED8F54-7752-47A6-94E9-433F57910F07">
+                                <File Id="INSOLATION32.PNG" Name="Insolation32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Insolation32.PNG" />
+                            </Component>
+                            <Component Id="INSOLATION64.PNG" DiskId="1" Guid="279C5192-95FD-40CC-A47A-50928D7EAB6A">
+                                <File Id="INSOLATION64.PNG" Name="Insolation64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Insolation64.PNG" />
+                            </Component>
+                            <Component Id="INTERIOR_ELEVATION32.PNG" DiskId="1" Guid="39372DE5-ECF9-4106-BD05-73307B3FD161">
+                                <File Id="INTERIOR_ELEVATION32.PNG" Name="Interior Elevation32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Interior Elevation32.PNG" />
+                            </Component>
+                            <Component Id="INTERIOR_ELEVATION64.PNG" DiskId="1" Guid="9E6C6D60-68AC-41DC-BFC4-8D0FB73F0DFA">
+                                <File Id="INTERIOR_ELEVATION64.PNG" Name="Interior Elevation64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Interior Elevation64.PNG" />
+                            </Component>
+                            <Component Id="JUNCTION_BOX32.PNG" DiskId="1" Guid="F258E3FB-0D6C-4A12-B69D-9BE0B04BCA58">
+                                <File Id="JUNCTION_BOX32.PNG" Name="Junction Box32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Junction Box32.PNG" />
+                            </Component>
+                            <Component Id="JUNCTION_BOX64.PNG" DiskId="1" Guid="0F96152F-695F-4E8A-A612-B57ED3C27983">
+                                <File Id="JUNCTION_BOX64.PNG" Name="Junction Box64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Junction Box64.PNG" />
+                            </Component>
+                            <Component Id="KEYNOTE32.PNG" DiskId="1" Guid="CF99125A-F55B-43D1-8D1E-0135EFEAFD27">
+                                <File Id="KEYNOTE32.PNG" Name="Keynote32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Keynote32.PNG" />
+                            </Component>
+                            <Component Id="KEYNOTE64.PNG" DiskId="1" Guid="2853EAE4-A3C1-4839-B4E2-CDF751C46EA0">
+                                <File Id="KEYNOTE64.PNG" Name="Keynote64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Keynote64.PNG" />
+                            </Component>
+                            <Component Id="LED_1W32.PNG" DiskId="1" Guid="027B3E55-758D-499B-ACE4-A3FA3276AD10">
+                                <File Id="LED_1W32.PNG" Name="Led 1W32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Led 1W32.PNG" />
+                            </Component>
+                            <Component Id="LED_1W64.PNG" DiskId="1" Guid="0F4806E2-9EB3-4E69-BD8B-B6DDC69D73C9">
+                                <File Id="LED_1W64.PNG" Name="Led 1W64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Led 1W64.PNG" />
+                            </Component>
+                            <Component Id="LED_3_9W32.PNG" DiskId="1" Guid="A24EBBD7-8695-49F1-B0EB-B5A8D7626ABE">
+                                <File Id="LED_3_9W32.PNG" Name="Led 3-9W32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Led 3-9W32.PNG" />
+                            </Component>
+                            <Component Id="LED_3_9W64.PNG" DiskId="1" Guid="4A5D28B6-06C6-4F9C-A370-61474438E265">
+                                <File Id="LED_3_9W64.PNG" Name="Led 3-9W64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Led 3-9W64.PNG" />
+                            </Component>
+                            <Component Id="LEVEL32.PNG" DiskId="1" Guid="537E8B6A-6EE7-4CC8-BDA4-08AF1D2D7BC6">
+                                <File Id="LEVEL32.PNG" Name="Level32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Level32.PNG" />
+                            </Component>
+                            <Component Id="LEVEL64.PNG" DiskId="1" Guid="ADF59C6B-2068-46C3-8CE4-5AFF59C1DC3B">
+                                <File Id="LEVEL64.PNG" Name="Level64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Level64.PNG" />
+                            </Component>
+                            <Component Id="NORTH32.PNG" DiskId="1" Guid="2F641606-CE39-4326-9C5A-1F2217B9C595">
+                                <File Id="NORTH32.PNG" Name="North32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\North32.PNG" />
+                            </Component>
+                            <Component Id="NORTH64.PNG" DiskId="1" Guid="66A30C09-0294-4CC1-922F-1CCA92F617ED">
+                                <File Id="NORTH64.PNG" Name="North64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\North64.PNG" />
+                            </Component>
+                            <Component Id="PANIC_BUTTON32.PNG" DiskId="1" Guid="4EC1D7D7-9E00-4EC5-8B24-86596B6FA534">
+                                <File Id="PANIC_BUTTON32.PNG" Name="PANIC BUTTON32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PANIC BUTTON32.PNG" />
+                            </Component>
+                            <Component Id="PANIC_BUTTON64.PNG" DiskId="1" Guid="B45F9A59-83F4-45C5-B4C3-B68D8FA8E9B3">
+                                <File Id="PANIC_BUTTON64.PNG" Name="PANIC BUTTON64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PANIC BUTTON64.PNG" />
+                            </Component>
+                            <Component Id="PENDANT_LIGHT32.PNG" DiskId="1" Guid="DFBBE2BB-762A-4AB8-8BED-FF782521B56D">
+                                <File Id="PENDANT_LIGHT32.PNG" Name="Pendant Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Pendant Light32.PNG" />
+                            </Component>
+                            <Component Id="PENDANT_LIGHT64.PNG" DiskId="1" Guid="1BD1C9E8-78D5-4848-BBFA-9A41F37EC4C0">
+                                <File Id="PENDANT_LIGHT64.PNG" Name="Pendant Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Pendant Light64.PNG" />
+                            </Component>
+                            <Component Id="PL32.PNG" DiskId="1" Guid="3DBA8525-C124-4356-A1E1-22D8B69C491E">
+                                <File Id="PL32.PNG" Name="PL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PL32.PNG" />
+                            </Component>
+                            <Component Id="PL64.PNG" DiskId="1" Guid="042F9011-270E-428D-A5F6-C7CBDD8D97F1">
+                                <File Id="PL64.PNG" Name="PL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PL64.PNG" />
+                            </Component>
+                            <Component Id="PULL_CHAIN_CEILING_FIXTURE32.PNG" DiskId="1" Guid="7F798991-724A-4504-B0B3-FF716FF4FA7F">
+                                <File Id="PULL_CHAIN_CEILING_FIXTURE32.PNG" Name="PULL CHAIN CEILING FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PULL CHAIN CEILING FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="PULL_CHAIN_CEILING_FIXTURE64.PNG" DiskId="1" Guid="BBCE8D6E-24A1-48F2-9789-567BFF68A652">
+                                <File Id="PULL_CHAIN_CEILING_FIXTURE64.PNG" Name="PULL CHAIN CEILING FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\PULL CHAIN CEILING FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="QUADRUPLEX_RECEPTACLE32.PNG" DiskId="1" Guid="E0A53C0C-46A2-44EB-8376-ED95EB715C6D">
+                                <File Id="QUADRUPLEX_RECEPTACLE32.PNG" Name="QUADRUPLEX RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\QUADRUPLEX RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="QUADRUPLEX_RECEPTACLE64.PNG" DiskId="1" Guid="82B7EC87-2B29-40EB-94C7-2E083AAB54D5">
+                                <File Id="QUADRUPLEX_RECEPTACLE64.PNG" Name="QUADRUPLEX RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\QUADRUPLEX RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_DOWNLIGHT32.PNG" DiskId="1" Guid="66DB8096-8BF6-4137-9991-6C9B0D392717">
+                                <File Id="RECESSED_DOWNLIGHT32.PNG" Name="Recessed Downlight32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Recessed Downlight32.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_DOWNLIGHT64.PNG" DiskId="1" Guid="4C9EF8DB-39C3-444B-87E3-CCB0DEF83987">
+                                <File Id="RECESSED_DOWNLIGHT64.PNG" Name="Recessed Downlight64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Recessed Downlight64.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_FIXTURE32.PNG" DiskId="1" Guid="4D50E55A-2A0F-4A1A-A7F5-94A6F3AEB832">
+                                <File Id="RECESSED_FIXTURE32.PNG" Name="RECESSED FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\RECESSED FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_FIXTURE64.PNG" DiskId="1" Guid="19E49088-5591-46B0-9F00-C97211A56052">
+                                <File Id="RECESSED_FIXTURE64.PNG" Name="RECESSED FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\RECESSED FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_SYSTEM_PANEL32.PNG" DiskId="1" Guid="81725AC7-0DD8-441C-843E-3C0FB8A79BAA">
+                                <File Id="RECESSED_SYSTEM_PANEL32.PNG" Name="RECESSED SYSTEM PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\RECESSED SYSTEM PANEL32.PNG" />
+                            </Component>
+                            <Component Id="RECESSED_SYSTEM_PANEL64.PNG" DiskId="1" Guid="87B4A9DF-91FC-45B4-858F-7DD553F1AF60">
+                                <File Id="RECESSED_SYSTEM_PANEL64.PNG" Name="RECESSED SYSTEM PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\RECESSED SYSTEM PANEL64.PNG" />
+                            </Component>
+                            <Component Id="REMOTE_KEY_PAD32.PNG" DiskId="1" Guid="FE48CEB5-5272-433E-B235-C88D7F35D0BF">
+                                <File Id="REMOTE_KEY_PAD32.PNG" Name="REMOTE KEY PAD32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\REMOTE KEY PAD32.PNG" />
+                            </Component>
+                            <Component Id="REMOTE_KEY_PAD64.PNG" DiskId="1" Guid="4229C433-0BF4-46DA-AAF1-162F96466E23">
+                                <File Id="REMOTE_KEY_PAD64.PNG" Name="REMOTE KEY PAD64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\REMOTE KEY PAD64.PNG" />
+                            </Component>
+                            <Component Id="REVISION32.PNG" DiskId="1" Guid="D0AB7CBA-C7CD-4BCB-9FA4-DF9D2598EB3C">
+                                <File Id="REVISION32.PNG" Name="REVISION32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\REVISION32.PNG" />
+                            </Component>
+                            <Component Id="REVISION64.PNG" DiskId="1" Guid="60DA40BB-CD56-41F9-A2BB-3849CF98CB83">
+                                <File Id="REVISION64.PNG" Name="REVISION64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\REVISION64.PNG" />
+                            </Component>
+                            <Component Id="ROOM_NAME_NUMBER32.PNG" DiskId="1" Guid="7F85514D-2438-47D6-8894-FFB10EDA4155">
+                                <File Id="ROOM_NAME_NUMBER32.PNG" Name="Room Name-Number32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Room Name-Number32.PNG" />
+                            </Component>
+                            <Component Id="ROOM_NAME_NUMBER64.PNG" DiskId="1" Guid="3BEB4D4E-61E6-4864-9B32-83C0018BBA96">
+                                <File Id="ROOM_NAME_NUMBER64.PNG" Name="Room Name-Number64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Room Name-Number64.PNG" />
+                            </Component>
+                            <Component Id="SINGLE_POLE_RECEPTACLE32.PNG" DiskId="1" Guid="15F51726-09B8-41CD-AE81-9C6A16891287">
+                                <File Id="SINGLE_POLE_RECEPTACLE32.PNG" Name="SINGLE POLE RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SINGLE POLE RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="SINGLE_POLE_RECEPTACLE64.PNG" DiskId="1" Guid="F6C357EB-C130-4688-AE85-34F9BF10B954">
+                                <File Id="SINGLE_POLE_RECEPTACLE64.PNG" Name="SINGLE POLE RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SINGLE POLE RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="SLOT_LIGHT32.PNG" DiskId="1" Guid="9B8E82EA-9415-4693-A0AF-82C90EFA7809">
+                                <File Id="SLOT_LIGHT32.PNG" Name="Slot Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Slot Light32.PNG" />
+                            </Component>
+                            <Component Id="SLOT_LIGHT64.PNG" DiskId="1" Guid="39D99409-CA64-4246-BC92-75CB1C97E1BB">
+                                <File Id="SLOT_LIGHT64.PNG" Name="Slot Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Slot Light64.PNG" />
+                            </Component>
+                            <Component Id="SMOKE_DETECTOR32.PNG" DiskId="1" Guid="A5A26DEE-2881-460A-A012-ABCCC11041FC">
+                                <File Id="SMOKE_DETECTOR32.PNG" Name="SMOKE DETECTOR32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SMOKE DETECTOR32.PNG" />
+                            </Component>
+                            <Component Id="SMOKE_DETECTOR64.PNG" DiskId="1" Guid="3FD599FD-ABB4-4969-B329-51E1D8B1C1CB">
+                                <File Id="SMOKE_DETECTOR64.PNG" Name="SMOKE DETECTOR64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SMOKE DETECTOR64.PNG" />
+                            </Component>
+                            <Component Id="SOLID32.PNG" DiskId="1" Guid="D9B4EFC6-DC78-48EF-99D7-F5440DAF5FBF">
+                                <File Id="SOLID32.PNG" Name="SOLID32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SOLID32.PNG" />
+                            </Component>
+                            <Component Id="SOLID64.PNG" DiskId="1" Guid="1826A1D3-59BC-4184-B85B-B4F569879EB1">
+                                <File Id="SOLID64.PNG" Name="SOLID64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SOLID64.PNG" />
+                            </Component>
+                            <Component Id="SPECIAL_CONNECTION32.PNG" DiskId="1" Guid="2EB6A43F-D155-4F6B-ABB5-681EFF53BAC4">
+                                <File Id="SPECIAL_CONNECTION32.PNG" Name="SPECIAL CONNECTION32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPECIAL CONNECTION32.PNG" />
+                            </Component>
+                            <Component Id="SPECIAL_CONNECTION64.PNG" DiskId="1" Guid="4927641A-7AFB-443E-82C4-2DA0E2497916">
+                                <File Id="SPECIAL_CONNECTION64.PNG" Name="SPECIAL CONNECTION64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPECIAL CONNECTION64.PNG" />
+                            </Component>
+                            <Component Id="SPOT_ELEVATION32.PNG" DiskId="1" Guid="D90D08A0-6EEC-4ECF-BA37-20D2B5157C66">
+                                <File Id="SPOT_ELEVATION32.PNG" Name="Spot Elevation32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Spot Elevation32.PNG" />
+                            </Component>
+                            <Component Id="SPOT_ELEVATION64.PNG" DiskId="1" Guid="4CF10C9E-0AA2-4E2C-979B-C7D54ED742DC">
+                                <File Id="SPOT_ELEVATION64.PNG" Name="Spot Elevation64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Spot Elevation64.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_TILE32.PNG" DiskId="1" Guid="31661B6B-C87F-414A-A9A6-7BD31E8FFECE">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_TILE32.PNG" Name="SPRINKLER HEAD IN CEILING TILE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING TILE32.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_TILE64.PNG" DiskId="1" Guid="DE76B39E-B989-474B-B985-97E8A2D58AEF">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_TILE64.PNG" Name="SPRINKLER HEAD IN CEILING TILE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING TILE64.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL32.PNG" DiskId="1" Guid="5CEC365B-F6E9-47CA-AE90-6003B23A50DF">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL32.PNG" Name="SPRINKLER HEAD IN CEILING VOID HIGH LEVEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING VOID HIGH LEVEL32.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL64.PNG" DiskId="1" Guid="1FE027AF-3CC2-40F1-BF05-0C05D6520243">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL64.PNG" Name="SPRINKLER HEAD IN CEILING VOID HIGH LEVEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING VOID HIGH LEVEL64.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL32.PNG" DiskId="1" Guid="A3519C47-5837-4DD0-A595-A82337A401CA">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL32.PNG" Name="SPRINKLER HEAD IN CEILING VOID LOW LEVEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING VOID LOW LEVEL32.PNG" />
+                            </Component>
+                            <Component Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL64.PNG" DiskId="1" Guid="3AE3C03C-6668-4722-B186-B0067ED816BA">
+                                <File Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL64.PNG" Name="SPRINKLER HEAD IN CEILING VOID LOW LEVEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SPRINKLER HEAD IN CEILING VOID LOW LEVEL64.PNG" />
+                            </Component>
+                            <Component Id="SURFACE_MOUNTED_POWER_PANEL32.PNG" DiskId="1" Guid="C690197A-3738-405A-B4AD-90C615DE827B">
+                                <File Id="SURFACE_MOUNTED_POWER_PANEL32.PNG" Name="SURFACE MOUNTED POWER PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SURFACE MOUNTED POWER PANEL32.PNG" />
+                            </Component>
+                            <Component Id="SURFACE_MOUNTED_POWER_PANEL64.PNG" DiskId="1" Guid="E474AF48-E488-483C-8369-3BC18CE5BB35">
+                                <File Id="SURFACE_MOUNTED_POWER_PANEL64.PNG" Name="SURFACE MOUNTED POWER PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SURFACE MOUNTED POWER PANEL64.PNG" />
+                            </Component>
+                            <Component Id="SWITCH32.PNG" DiskId="1" Guid="CA9CA58D-7761-405E-9502-B1F70B4042FA">
+                                <File Id="SWITCH32.PNG" Name="SWITCH32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SWITCH32.PNG" />
+                            </Component>
+                            <Component Id="SWITCH64.PNG" DiskId="1" Guid="7A563E26-4857-4982-87BB-75ED1B727205">
+                                <File Id="SWITCH64.PNG" Name="SWITCH64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SWITCH64.PNG" />
+                            </Component>
+                            <Component Id="SWITCHED_RECEPTACLE32.PNG" DiskId="1" Guid="3E1C9963-D02D-49F6-A91C-FA7C0ACDFA2E">
+                                <File Id="SWITCHED_RECEPTACLE32.PNG" Name="SWITCHED RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SWITCHED RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="SWITCHED_RECEPTACLE64.PNG" DiskId="1" Guid="C4645309-9FD2-4CFB-AF3D-FA62DA7AB822">
+                                <File Id="SWITCHED_RECEPTACLE64.PNG" Name="SWITCHED RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\SWITCHED RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_DISTRIBUTION_FRAME32.PNG" DiskId="1" Guid="A7A18FF5-9B06-45A7-958B-31613FB8C9FC">
+                                <File Id="TELEPHONE_DISTRIBUTION_FRAME32.PNG" Name="TELEPHONE DISTRIBUTION FRAME32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE DISTRIBUTION FRAME32.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_DISTRIBUTION_FRAME64.PNG" DiskId="1" Guid="B2EBD889-5B02-42D9-A707-C68353226618">
+                                <File Id="TELEPHONE_DISTRIBUTION_FRAME64.PNG" Name="TELEPHONE DISTRIBUTION FRAME64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE DISTRIBUTION FRAME64.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_JACK32.PNG" DiskId="1" Guid="37C52AA5-EACD-4C7F-A8E8-CD23597B440A">
+                                <File Id="TELEPHONE_JACK32.PNG" Name="TELEPHONE JACK32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE JACK32.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_JACK64.PNG" DiskId="1" Guid="03C5201A-164B-47E3-8F36-7A037C3AE297">
+                                <File Id="TELEPHONE_JACK64.PNG" Name="TELEPHONE JACK64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE JACK64.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME32.PNG" DiskId="1" Guid="6538AF68-6E25-4E32-961B-1A147F771BC5">
+                                <File Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME32.PNG" Name="TELEPHONE MAIN DISTRIBUTION FRAME32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE MAIN DISTRIBUTION FRAME32.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME64.PNG" DiskId="1" Guid="E7E519FF-09B5-4EEA-9FD3-03C0075A6CF4">
+                                <File Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME64.PNG" Name="TELEPHONE MAIN DISTRIBUTION FRAME64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE MAIN DISTRIBUTION FRAME64.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_SOCKET32.PNG" DiskId="1" Guid="6D63BEBE-0AF6-49F9-B9D0-8C6E8FA487E7">
+                                <File Id="TELEPHONE_SOCKET32.PNG" Name="TELEPHONE SOCKET32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE SOCKET32.PNG" />
+                            </Component>
+                            <Component Id="TELEPHONE_SOCKET64.PNG" DiskId="1" Guid="137F53FE-9FD0-4201-B770-57E3EEEF3FA6">
+                                <File Id="TELEPHONE_SOCKET64.PNG" Name="TELEPHONE SOCKET64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEPHONE SOCKET64.PNG" />
+                            </Component>
+                            <Component Id="TELEVISION_JACK32.PNG" DiskId="1" Guid="868079D4-663E-4E42-A3D5-D067FD5D8CBC">
+                                <File Id="TELEVISION_JACK32.PNG" Name="TELEVISION JACK32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEVISION JACK32.PNG" />
+                            </Component>
+                            <Component Id="TELEVISION_JACK64.PNG" DiskId="1" Guid="35AAF880-3A3E-4456-9459-3D0C678F58E5">
+                                <File Id="TELEVISION_JACK64.PNG" Name="TELEVISION JACK64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\TELEVISION JACK64.PNG" />
+                            </Component>
+                            <Component Id="THERMOSTAT32.PNG" DiskId="1" Guid="68E3B5F2-5BA2-4ACE-AAF4-D52CC2BB8DA7">
+                                <File Id="THERMOSTAT32.PNG" Name="THERMOSTAT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\THERMOSTAT32.PNG" />
+                            </Component>
+                            <Component Id="THERMOSTAT64.PNG" DiskId="1" Guid="90EDFF58-80F1-4CA5-9024-5847CBABEA3B">
+                                <File Id="THERMOSTAT64.PNG" Name="THERMOSTAT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\THERMOSTAT64.PNG" />
+                            </Component>
+                            <Component Id="TUBE_LIGHT32.PNG" DiskId="1" Guid="941894DB-147A-4E91-88ED-D11ACF5E7607">
+                                <File Id="TUBE_LIGHT32.PNG" Name="Tube Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Tube Light32.PNG" />
+                            </Component>
+                            <Component Id="TUBE_LIGHT64.PNG" DiskId="1" Guid="84AED2C2-F5C5-4587-A54B-2C69C014FEB9">
+                                <File Id="TUBE_LIGHT64.PNG" Name="Tube Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Tube Light64.PNG" />
+                            </Component>
+                            <Component Id="VANITY_LIGHT32.PNG" DiskId="1" Guid="5782DBBE-696F-4C21-B5D4-ADFD4E957F6C">
+                                <File Id="VANITY_LIGHT32.PNG" Name="VANITY LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VANITY LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="VANITY_LIGHT64.PNG" DiskId="1" Guid="A710FC3D-4AA0-46D3-9666-8E39FF69BE30">
+                                <File Id="VANITY_LIGHT64.PNG" Name="VANITY LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VANITY LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="VAPOR_PROTECTED_LIGHT32.PNG" DiskId="1" Guid="9A4AE21A-16AA-4852-BC58-B2D340E4C6E0">
+                                <File Id="VAPOR_PROTECTED_LIGHT32.PNG" Name="VAPOR PROTECTED LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VAPOR PROTECTED LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="VAPOR_PROTECTED_LIGHT64.PNG" DiskId="1" Guid="DE2D3D57-90AB-467E-A37D-5B322C49233A">
+                                <File Id="VAPOR_PROTECTED_LIGHT64.PNG" Name="VAPOR PROTECTED LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VAPOR PROTECTED LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="VIDEO_ENTRY_PANEL32.PNG" DiskId="1" Guid="7EF8E389-242A-479E-AD99-F6CCD5279439">
+                                <File Id="VIDEO_ENTRY_PANEL32.PNG" Name="VIDEO ENTRY PANEL32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VIDEO ENTRY PANEL32.PNG" />
+                            </Component>
+                            <Component Id="VIDEO_ENTRY_PANEL64.PNG" DiskId="1" Guid="B0646D4F-90B7-403B-87B8-8A5676EDA259">
+                                <File Id="VIDEO_ENTRY_PANEL64.PNG" Name="VIDEO ENTRY PANEL64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VIDEO ENTRY PANEL64.PNG" />
+                            </Component>
+                            <Component Id="VIDEO_RECORDER32.PNG" DiskId="1" Guid="798E29E5-085F-4892-A43B-A650302FF92C">
+                                <File Id="VIDEO_RECORDER32.PNG" Name="VIDEO RECORDER32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VIDEO RECORDER32.PNG" />
+                            </Component>
+                            <Component Id="VIDEO_RECORDER64.PNG" DiskId="1" Guid="DAEF45FA-C21A-4648-A2B8-C056D2FD5B5F">
+                                <File Id="VIDEO_RECORDER64.PNG" Name="VIDEO RECORDER64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\VIDEO RECORDER64.PNG" />
+                            </Component>
+                            <Component Id="VIEW_TITLE32.PNG" DiskId="1" Guid="68B0F1A6-EFD8-4A9E-8E0B-277B67F6461D">
+                                <File Id="VIEW_TITLE32.PNG" Name="View Title32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\View Title32.PNG" />
+                            </Component>
+                            <Component Id="VIEW_TITLE64.PNG" DiskId="1" Guid="B0D55D28-2F89-4C97-BE9D-12D8DBB11E7F">
+                                <File Id="VIEW_TITLE64.PNG" Name="View Title64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\View Title64.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" DiskId="1" Guid="8D420B11-A9E7-494A-8193-06FCB61AB966">
+                                <File Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" Name="WALL MOUNTED COMPACT FLUORESCENT LIGHT32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED COMPACT FLUORESCENT LIGHT32.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" DiskId="1" Guid="3F34AAF7-1D5B-407A-B112-EC463DD8BD23">
+                                <File Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" Name="WALL MOUNTED COMPACT FLUORESCENT LIGHT64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED COMPACT FLUORESCENT LIGHT64.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_FIXTURE32.PNG" DiskId="1" Guid="C1012085-0A97-4E65-A312-2BDC1EB49A4C">
+                                <File Id="WALL_MOUNTED_FIXTURE32.PNG" Name="WALL MOUNTED FIXTURE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED FIXTURE32.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_FIXTURE64.PNG" DiskId="1" Guid="1882BC9E-6E7F-4A18-92E6-B058898CADE0">
+                                <File Id="WALL_MOUNTED_FIXTURE64.PNG" Name="WALL MOUNTED FIXTURE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED FIXTURE64.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_FLUORESCENT_LIGHT32.PNG" DiskId="1" Guid="90AD133D-AA91-4187-AE02-14B5E7E75237">
+                                <File Id="WALL_MOUNTED_FLUORESCENT_LIGHT32.PNG" Name="Wall Mounted Fluorescent Light32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Mounted Fluorescent Light32.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_FLUORESCENT_LIGHT64.PNG" DiskId="1" Guid="A0E35C01-1CCB-414D-BDF5-D262BA15B2B1">
+                                <File Id="WALL_MOUNTED_FLUORESCENT_LIGHT64.PNG" Name="Wall Mounted Fluorescent Light64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Mounted Fluorescent Light64.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_SPEAKER32.PNG" DiskId="1" Guid="3B75AA68-9EA7-499D-AA41-A9F19CC6CB5F">
+                                <File Id="WALL_MOUNTED_SPEAKER32.PNG" Name="WALL MOUNTED SPEAKER32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED SPEAKER32.PNG" />
+                            </Component>
+                            <Component Id="WALL_MOUNTED_SPEAKER64.PNG" DiskId="1" Guid="035C44F7-457F-4B58-A725-17FE61E818F7">
+                                <File Id="WALL_MOUNTED_SPEAKER64.PNG" Name="WALL MOUNTED SPEAKER64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WALL MOUNTED SPEAKER64.PNG" />
+                            </Component>
+                            <Component Id="WALL_SECTION32.PNG" DiskId="1" Guid="AC07E864-F8F6-4D51-A208-0F7D310331F9">
+                                <File Id="WALL_SECTION32.PNG" Name="Wall Section32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Section32.PNG" />
+                            </Component>
+                            <Component Id="WALL_SECTION64.PNG" DiskId="1" Guid="08EEA221-384A-4274-859A-CF65F2A53389">
+                                <File Id="WALL_SECTION64.PNG" Name="Wall Section64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Section64.PNG" />
+                            </Component>
+                            <Component Id="WALL_TYPE32.PNG" DiskId="1" Guid="43397601-B2E3-40E0-A9B0-23427B70F78D">
+                                <File Id="WALL_TYPE32.PNG" Name="Wall Type32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Type32.PNG" />
+                            </Component>
+                            <Component Id="WALL_TYPE64.PNG" DiskId="1" Guid="F109CA36-F86E-4280-B04F-1AA9D0B99DDA">
+                                <File Id="WALL_TYPE64.PNG" Name="Wall Type64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Wall Type64.PNG" />
+                            </Component>
+                            <Component Id="WATERPROOF_RECEPTACLE32.PNG" DiskId="1" Guid="8CABD436-9C90-4F4A-A6F0-DCC37E3F58F1">
+                                <File Id="WATERPROOF_RECEPTACLE32.PNG" Name="WATERPROOF RECEPTACLE32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WATERPROOF RECEPTACLE32.PNG" />
+                            </Component>
+                            <Component Id="WATERPROOF_RECEPTACLE64.PNG" DiskId="1" Guid="06895A11-EC9B-49A7-99B3-0329BC52DBDA">
+                                <File Id="WATERPROOF_RECEPTACLE64.PNG" Name="WATERPROOF RECEPTACLE64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WATERPROOF RECEPTACLE64.PNG" />
+                            </Component>
+                            <Component Id="WINDOW_NUMBER32.PNG" DiskId="1" Guid="3453ACCB-6717-4B27-ADEB-67E430B0D307">
+                                <File Id="WINDOW_NUMBER32.PNG" Name="Window Number32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Window Number32.PNG" />
+                            </Component>
+                            <Component Id="WINDOW_NUMBER64.PNG" DiskId="1" Guid="901573DD-34AD-4496-8A24-E4776EF0A853">
+                                <File Id="WINDOW_NUMBER64.PNG" Name="Window Number64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\Window Number64.PNG" />
+                            </Component>
+                            <Component Id="WOOD_BLOCK32.PNG" DiskId="1" Guid="BD400929-609C-453B-9DD1-CFBB431DBDB7">
+                                <File Id="WOOD_BLOCK32.PNG" Name="WOOD BLOCK32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WOOD BLOCK32.PNG" />
+                            </Component>
+                            <Component Id="WOOD_BLOCK64.PNG" DiskId="1" Guid="8CC313AD-9C1A-4B93-B651-295C373E8E73">
+                                <File Id="WOOD_BLOCK64.PNG" Name="WOOD BLOCK64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WOOD BLOCK64.PNG" />
+                            </Component>
+                            <Component Id="WOOD_FRAME32.PNG" DiskId="1" Guid="A1011EC3-E2F6-4099-9D6E-E38CB41E6D96">
+                                <File Id="WOOD_FRAME32.PNG" Name="WOOD FRAME32.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WOOD FRAME32.PNG" />
+                            </Component>
+                            <Component Id="WOOD_FRAME64.PNG" DiskId="1" Guid="3AE11A6E-143F-4EAE-8B15-72782566E059">
+                                <File Id="WOOD_FRAME64.PNG" Name="WOOD FRAME64.PNG" Source="D:\WORK\2061 Cad Standards Architect\Work\Palettes\Images\WOOD FRAME64.PNG" />
+                            </Component>
+                        </Directory>
+                    </Directory>
+                </Directory>
+
+            </Directory>
+        </Directory>
+			<DirectoryRef Id="WORK">				
+                <Merge Id="MergeOpenDCL" SourceFile="D:\WORK\2061 Cad Standards Architect\Work\OpenDCL.Runtime.7.0.1.4.msm" DiskId="1" Language="1033"/>
+			</DirectoryRef>
+        <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
+            <ComponentRef Id="ACDB.PAT" />
+            <ComponentRef Id="ENTSEARCH.LSP" />
+            <ComponentRef Id="FIRST_SETUP.LSP" />
+            <ComponentRef Id="LAYERCONTROL.LSP" />
+            <ComponentRef Id="LAYERCONTROL.ODCL" />
+            <ComponentRef Id="LAYERS_LIST_TPA_MASTER.XLS" />
+            <ComponentRef Id="LOGO.ICO" />
+            <ComponentRef Id="OPENDCL.RUNTIME.7.0.0.12.MSI" />
+            <ComponentRef Id="SETBORDER.LSP" />
+            <ComponentRef Id="SETSYMBOLS.LSP" />
+            <ComponentRef Id="SHEET_LIST.XLSX" />
+            <ComponentRef Id="TABLE_UPDATE.LSP" />
+            <ComponentRef Id="TEMPLATEPICKER.LSP" />
+            <ComponentRef Id="TPA_BLOCKS_TEMPLATE.DWG" />
+            <ComponentRef Id="TPA_CAD_RIBBON.CUIX" />
+            <ComponentRef Id="TPA_CAD_RIBBON.MNL" />
+            <ComponentRef Id="TPA_IMPERIAL_START.DWT" />
+            <ComponentRef Id="TPA_IMPERIAL.DWT" />
+            <ComponentRef Id="TPA_INSTALL.SCR" />
+            <ComponentRef Id="TPA_LOGO_MASTER.DWG" />
+            <ComponentRef Id="TPA_LOGO.JPG" />
+            <ComponentRef Id="TPA_METRIC_START.DWT" />
+            <ComponentRef Id="TPA_METRIC.DWG" />
+            <ComponentRef Id="TPA_METRIC.DWT" />
+            <ComponentRef Id="TPA.STB" />
+            <ComponentRef Id="TPA.XPG" />
+            <ComponentRef Id="TPA_ACCESS_CONTROL_BC9619CF_0498_4581_9C54_41C95D96673A.ATC_1" />
+            <ComponentRef Id="TPA_COMMUNICATION_D91E6CC9_0D62_48DD_AC52_5E615AFC40CD.ATC_1" />
+            <ComponentRef Id="TPA_FIRE_ALARM_21698E45_0EA4_40C5_BB29_436550603DAA.ATC_1" />
+            <ComponentRef Id="TPA_GRAPHIC_SYMBOLS_30FC80E0_7F50_4D18_942B_9F607CC82FE8.ATC_1" />
+            <ComponentRef Id="TPA_HATCHES_9D3FCCDA_CF32_401C_A46C_A3E52BE62A65.ATC_1" />
+            <ComponentRef Id="TPA_LIGHTING_95564819_39D1_40C2_A345_C5EFAD26185F.ATC_1" />
+            <ComponentRef Id="TPA_POWER_C094C185_53E3_4A67_BB33_4FBECD88A20A.ATC_1" />
+            <ComponentRef Id="TPA_SECURITY_530A0244_0057_413E_AAE0_B0188FB8C314.ATC_1" />
+            <ComponentRef Id="_2_WAY_SWITCH32.PNG" />
+            <ComponentRef Id="_2_WAY_SWITCH64.PNG" />
+            <ComponentRef Id="_220_VOLT_RECEPTACLE32.PNG" />
+            <ComponentRef Id="_220_VOLT_RECEPTACLE64.PNG" />
+            <ComponentRef Id="_3_WAY_SWITCH32.PNG" />
+            <ComponentRef Id="_3_WAY_SWITCH64.PNG" />
+            <ComponentRef Id="_4_WAY_SWITCH32.PNG" />
+            <ComponentRef Id="_4_WAY_SWITCH64.PNG" />
+            <ComponentRef Id="ABOVE_COUNTER_RECEPTACLE32.PNG" />
+            <ComponentRef Id="ABOVE_COUNTER_RECEPTACLE64.PNG" />
+            <ComponentRef Id="ANSI3132.PNG" />
+            <ComponentRef Id="ANSI3164.PNG" />
+            <ComponentRef Id="ANSI3232.PNG" />
+            <ComponentRef Id="ANSI3264.PNG" />
+            <ComponentRef Id="ANSI3732.PNG" />
+            <ComponentRef Id="ANSI3764.PNG" />
+            <ComponentRef Id="AR_BRSTD32.PNG" />
+            <ComponentRef Id="AR_BRSTD64.PNG" />
+            <ComponentRef Id="AR_CONC32.PNG" />
+            <ComponentRef Id="AR_CONC64.PNG" />
+            <ComponentRef Id="AR_SAND32.PNG" />
+            <ComponentRef Id="AR_SAND64.PNG" />
+            <ComponentRef Id="BELL_CHIMES32.PNG" />
+            <ComponentRef Id="BELL_CHIMES64.PNG" />
+            <ComponentRef Id="BELL_PUSH32.PNG" />
+            <ComponentRef Id="BELL_PUSH64.PNG" />
+            <ComponentRef Id="BELOW_COUNTER_RECEPTACLE32.PNG" />
+            <ComponentRef Id="BELOW_COUNTER_RECEPTACLE64.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_00368765_492F_4EC3_8F55_1CA5D21704AA_2.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_84DA8E97_25A4_4448_9C96_CB63952F11E0_2.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_8CCE0F3A_2705_45A4_9CDE_F70023ED5348_2.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD.PNG" />
+            <ComponentRef Id="BLOCK_TOOL_B0331748_97E4_4F5D_A9B2_9CBC48C4E4CD_2.PNG" />
+            <ComponentRef Id="BUILDING_SECTION32.PNG" />
+            <ComponentRef Id="BUILDING_SECTION64.PNG" />
+            <ComponentRef Id="BUZZER32.PNG" />
+            <ComponentRef Id="BUZZER64.PNG" />
+            <ComponentRef Id="C.C._T.V._CAMERA32.PNG" />
+            <ComponentRef Id="C.C._T.V._CAMERA64.PNG" />
+            <ComponentRef Id="CARD_READER32.PNG" />
+            <ComponentRef Id="CARD_READER64.PNG" />
+            <ComponentRef Id="CCTV_CAMERA__INFRA_RED_32.PNG" />
+            <ComponentRef Id="CCTV_CAMERA__INFRA_RED_64.PNG" />
+            <ComponentRef Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_32.PNG" />
+            <ComponentRef Id="CCTV_CAMERA__PTZ___PAN_TILT_ZOOM_64.PNG" />
+            <ComponentRef Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_32.PNG" />
+            <ComponentRef Id="CCTV_CAMERA_INFRA_RED__PTZ___PAN_TILT_ZOOM_64.PNG" />
+            <ComponentRef Id="CCTV_MONITOR32.PNG" />
+            <ComponentRef Id="CCTV_MONITOR64.PNG" />
+            <ComponentRef Id="CEILING_CARBON_MONOXIDE32.PNG" />
+            <ComponentRef Id="CEILING_CARBON_MONOXIDE64.PNG" />
+            <ComponentRef Id="CEILING_FAN_W_LIGHT32.PNG" />
+            <ComponentRef Id="CEILING_FAN_W_LIGHT64.PNG" />
+            <ComponentRef Id="CEILING_FAN32.PNG" />
+            <ComponentRef Id="CEILING_FAN64.PNG" />
+            <ComponentRef Id="CEILING_FIXTURE32.PNG" />
+            <ComponentRef Id="CEILING_FIXTURE64.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_SMOKE_DETECTOR32.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_SMOKE_DETECTOR64.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_SPEAKER32.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_SPEAKER64.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD32.PNG" />
+            <ComponentRef Id="CEILING_MOUNTED_TRACK_COMPLETE_WITH_HEAD64.PNG" />
+            <ComponentRef Id="CEILING_RECEPTACLE32.PNG" />
+            <ComponentRef Id="CEILING_RECEPTACLE64.PNG" />
+            <ComponentRef Id="COVE_LIGHT32.PNG" />
+            <ComponentRef Id="COVE_LIGHT64.PNG" />
+            <ComponentRef Id="CROSS32.PNG" />
+            <ComponentRef Id="CROSS64.PNG" />
+            <ComponentRef Id="DATA_LINE32.PNG" />
+            <ComponentRef Id="DATA_LINE64.PNG" />
+            <ComponentRef Id="DETAIL_REFERENCE32.PNG" />
+            <ComponentRef Id="DETAIL_REFERENCE64.PNG" />
+            <ComponentRef Id="DIMMER_SWITCH32.PNG" />
+            <ComponentRef Id="DIMMER_SWITCH64.PNG" />
+            <ComponentRef Id="DISCONNECT32.PNG" />
+            <ComponentRef Id="DISCONNECT64.PNG" />
+            <ComponentRef Id="DOME_CAMERA32.PNG" />
+            <ComponentRef Id="DOME_CAMERA64.PNG" />
+            <ComponentRef Id="DOME_LIGHT32.PNG" />
+            <ComponentRef Id="DOME_LIGHT64.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL32.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_AUDIO_ENTRY_PANEL64.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE32.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_AUDIO_ENTRY_PHONE64.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL32.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_VIDEO_ENTRY_PANEL64.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_VIDEO_MONITOR32.PNG" />
+            <ComponentRef Id="DOOR_ACCESS_VIDEO_MONITOR64.PNG" />
+            <ComponentRef Id="DOOR_BELL_PUSH32.PNG" />
+            <ComponentRef Id="DOOR_BELL_PUSH64.PNG" />
+            <ComponentRef Id="DOOR_NUMBER32.PNG" />
+            <ComponentRef Id="DOOR_NUMBER64.PNG" />
+            <ComponentRef Id="DOOR_RELEASE32.PNG" />
+            <ComponentRef Id="DOOR_RELEASE64.PNG" />
+            <ComponentRef Id="DUPLEX_RECEPTACLE32.PNG" />
+            <ComponentRef Id="DUPLEX_RECEPTACLE64.PNG" />
+            <ComponentRef Id="EARTH32.PNG" />
+            <ComponentRef Id="EARTH64.PNG" />
+            <ComponentRef Id="ELECTRIC_HEATER32.PNG" />
+            <ComponentRef Id="ELECTRIC_HEATER64.PNG" />
+            <ComponentRef Id="ELECTRIC_WATER_HEATER32.PNG" />
+            <ComponentRef Id="ELECTRIC_WATER_HEATER64.PNG" />
+            <ComponentRef Id="ELECTRICAL_PANEL_BOX32.PNG" />
+            <ComponentRef Id="ELECTRICAL_PANEL_BOX64.PNG" />
+            <ComponentRef Id="ELEVATION32.PNG" />
+            <ComponentRef Id="ELEVATION64.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_132.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL_164.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL32.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___DIRECTIONAL64.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_132.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_164.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_232.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL_264.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL32.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN___MULTI_DIRECTIONAL64.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN32.PNG" />
+            <ComponentRef Id="EMERGENCY_EXIT_SIGN64.PNG" />
+            <ComponentRef Id="EXHAUST_FAN_W_LIGHT32.PNG" />
+            <ComponentRef Id="EXHAUST_FAN_W_LIGHT64.PNG" />
+            <ComponentRef Id="EXHAUST_FAN32.PNG" />
+            <ComponentRef Id="EXHAUST_FAN64.PNG" />
+            <ComponentRef Id="EYEBALL_RECESSED_FIXTURE32.PNG" />
+            <ComponentRef Id="EYEBALL_RECESSED_FIXTURE64.PNG" />
+            <ComponentRef Id="FIRE_ALARM_CONTROL_PANEL32.PNG" />
+            <ComponentRef Id="FIRE_ALARM_CONTROL_PANEL64.PNG" />
+            <ComponentRef Id="FLOODLIGHT_FIXTURE32.PNG" />
+            <ComponentRef Id="FLOODLIGHT_FIXTURE64.PNG" />
+            <ComponentRef Id="FLOOR_FINISH_CHANGE32.PNG" />
+            <ComponentRef Id="FLOOR_FINISH_CHANGE64.PNG" />
+            <ComponentRef Id="FLOOR_RECEPTACLE32.PNG" />
+            <ComponentRef Id="FLOOR_RECEPTACLE64.PNG" />
+            <ComponentRef Id="FLUORESCENT_FIXTURE32.PNG" />
+            <ComponentRef Id="FLUORESCENT_FIXTURE64.PNG" />
+            <ComponentRef Id="FLUSH_MOUNTED_POWER_PANEL32.PNG" />
+            <ComponentRef Id="FLUSH_MOUNTED_POWER_PANEL64.PNG" />
+            <ComponentRef Id="GOST_GLASS32.PNG" />
+            <ComponentRef Id="GOST_GLASS64.PNG" />
+            <ComponentRef Id="GRAVEL32.PNG" />
+            <ComponentRef Id="GRAVEL64.PNG" />
+            <ComponentRef Id="GRID_BUBBLE32.PNG" />
+            <ComponentRef Id="GRID_BUBBLE64.PNG" />
+            <ComponentRef Id="GROUND_FAULT_RECEPT.32.PNG" />
+            <ComponentRef Id="GROUND_FAULT_RECEPT.64.PNG" />
+            <ComponentRef Id="GYPSUM32.PNG" />
+            <ComponentRef Id="GYPSUM64.PNG" />
+            <ComponentRef Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9.PNG" />
+            <ComponentRef Id="HATCH_TOOL_1070B06E_D2EF_4A64_9D2A_905BB5C048D9_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807.PNG" />
+            <ComponentRef Id="HATCH_TOOL_29EA7E5F_2355_40C7_B955_04105DC55807_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A.PNG" />
+            <ComponentRef Id="HATCH_TOOL_2B02008A_9A5D_4B9B_ADCB_FCDE2AB2DE4A_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E.PNG" />
+            <ComponentRef Id="HATCH_TOOL_2B2C024C_A4EA_4F66_BB9C_8868EF6B4F3E_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693.PNG" />
+            <ComponentRef Id="HATCH_TOOL_3C351D1F_553B_4F4D_9782_5B5A2E276693_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711.PNG" />
+            <ComponentRef Id="HATCH_TOOL_3DD4B75E_E995_4B6F_AF1C_06E3B7BDD711_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB.PNG" />
+            <ComponentRef Id="HATCH_TOOL_5303FB57_CAB5_437B_9978_8D6242CCD4EB_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9.PNG" />
+            <ComponentRef Id="HATCH_TOOL_530B9C4E_F256_4DF8_9C13_EAB40B419BC9_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602.PNG" />
+            <ComponentRef Id="HATCH_TOOL_54470CCD_BA4A_4FF8_A846_0B8D5C310602_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB.PNG" />
+            <ComponentRef Id="HATCH_TOOL_6966B164_66D3_44C4_82C7_E0BCA2AD0CDB_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F.PNG" />
+            <ComponentRef Id="HATCH_TOOL_6B3F5778_D92D_49F8_90F1_A3C63F152E4F_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7.PNG" />
+            <ComponentRef Id="HATCH_TOOL_75EC4615_C746_420B_891B_0C0A13A77FF7_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0.PNG" />
+            <ComponentRef Id="HATCH_TOOL_8D2EA578_5797_4654_A856_F6D1165492B0_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD.PNG" />
+            <ComponentRef Id="HATCH_TOOL_AF5FA740_A7E6_4FD5_BB3A_6C3500C0B5FD_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166.PNG" />
+            <ComponentRef Id="HATCH_TOOL_B14E313C_7AA6_4BDA_9A87_594494927166_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3.PNG" />
+            <ComponentRef Id="HATCH_TOOL_CAB98B8A_26A3_48F0_950C_69169C8FA8D3_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68.PNG" />
+            <ComponentRef Id="HATCH_TOOL_D664142E_8867_4550_9CE1_09F2AADA4F68_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9.PNG" />
+            <ComponentRef Id="HATCH_TOOL_DBD239AA_BAF9_40E8_96E3_54F61B61CDB9_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_E43045ED_5C4C_46EC_81EC_CA4E74C378C2_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F.PNG" />
+            <ComponentRef Id="HATCH_TOOL_FB83FD13_771E_4A7A_A4A6_7DCA22455B0F_2.PNG" />
+            <ComponentRef Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A.PNG" />
+            <ComponentRef Id="HATCH_TOOL_FEF91A1C_94E7_488B_8E59_1F1AF07A018A_2.PNG" />
+            <ComponentRef Id="HEAT_DETECTOR32.PNG" />
+            <ComponentRef Id="HEAT_DETECTOR64.PNG" />
+            <ComponentRef Id="HEAT_LIGHT___EXHAUST_FAN32.PNG" />
+            <ComponentRef Id="HEAT_LIGHT___EXHAUST_FAN64.PNG" />
+            <ComponentRef Id="HVAC_COMPRESSOR32.PNG" />
+            <ComponentRef Id="HVAC_COMPRESSOR64.PNG" />
+            <ComponentRef Id="INSOLATION32.PNG" />
+            <ComponentRef Id="INSOLATION64.PNG" />
+            <ComponentRef Id="INTERIOR_ELEVATION32.PNG" />
+            <ComponentRef Id="INTERIOR_ELEVATION64.PNG" />
+            <ComponentRef Id="JUNCTION_BOX32.PNG" />
+            <ComponentRef Id="JUNCTION_BOX64.PNG" />
+            <ComponentRef Id="KEYNOTE32.PNG" />
+            <ComponentRef Id="KEYNOTE64.PNG" />
+            <ComponentRef Id="LED_1W32.PNG" />
+            <ComponentRef Id="LED_1W64.PNG" />
+            <ComponentRef Id="LED_3_9W32.PNG" />
+            <ComponentRef Id="LED_3_9W64.PNG" />
+            <ComponentRef Id="LEVEL32.PNG" />
+            <ComponentRef Id="LEVEL64.PNG" />
+            <ComponentRef Id="NORTH32.PNG" />
+            <ComponentRef Id="NORTH64.PNG" />
+            <ComponentRef Id="PANIC_BUTTON32.PNG" />
+            <ComponentRef Id="PANIC_BUTTON64.PNG" />
+            <ComponentRef Id="PENDANT_LIGHT32.PNG" />
+            <ComponentRef Id="PENDANT_LIGHT64.PNG" />
+            <ComponentRef Id="PL32.PNG" />
+            <ComponentRef Id="PL64.PNG" />
+            <ComponentRef Id="PULL_CHAIN_CEILING_FIXTURE32.PNG" />
+            <ComponentRef Id="PULL_CHAIN_CEILING_FIXTURE64.PNG" />
+            <ComponentRef Id="QUADRUPLEX_RECEPTACLE32.PNG" />
+            <ComponentRef Id="QUADRUPLEX_RECEPTACLE64.PNG" />
+            <ComponentRef Id="RECESSED_DOWNLIGHT32.PNG" />
+            <ComponentRef Id="RECESSED_DOWNLIGHT64.PNG" />
+            <ComponentRef Id="RECESSED_FIXTURE32.PNG" />
+            <ComponentRef Id="RECESSED_FIXTURE64.PNG" />
+            <ComponentRef Id="RECESSED_SYSTEM_PANEL32.PNG" />
+            <ComponentRef Id="RECESSED_SYSTEM_PANEL64.PNG" />
+            <ComponentRef Id="REMOTE_KEY_PAD32.PNG" />
+            <ComponentRef Id="REMOTE_KEY_PAD64.PNG" />
+            <ComponentRef Id="REVISION32.PNG" />
+            <ComponentRef Id="REVISION64.PNG" />
+            <ComponentRef Id="ROOM_NAME_NUMBER32.PNG" />
+            <ComponentRef Id="ROOM_NAME_NUMBER64.PNG" />
+            <ComponentRef Id="SINGLE_POLE_RECEPTACLE32.PNG" />
+            <ComponentRef Id="SINGLE_POLE_RECEPTACLE64.PNG" />
+            <ComponentRef Id="SLOT_LIGHT32.PNG" />
+            <ComponentRef Id="SLOT_LIGHT64.PNG" />
+            <ComponentRef Id="SMOKE_DETECTOR32.PNG" />
+            <ComponentRef Id="SMOKE_DETECTOR64.PNG" />
+            <ComponentRef Id="SOLID32.PNG" />
+            <ComponentRef Id="SOLID64.PNG" />
+            <ComponentRef Id="SPECIAL_CONNECTION32.PNG" />
+            <ComponentRef Id="SPECIAL_CONNECTION64.PNG" />
+            <ComponentRef Id="SPOT_ELEVATION32.PNG" />
+            <ComponentRef Id="SPOT_ELEVATION64.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_TILE32.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_TILE64.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL32.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_VOID_HIGH_LEVEL64.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL32.PNG" />
+            <ComponentRef Id="SPRINKLER_HEAD_IN_CEILING_VOID_LOW_LEVEL64.PNG" />
+            <ComponentRef Id="SURFACE_MOUNTED_POWER_PANEL32.PNG" />
+            <ComponentRef Id="SURFACE_MOUNTED_POWER_PANEL64.PNG" />
+            <ComponentRef Id="SWITCH32.PNG" />
+            <ComponentRef Id="SWITCH64.PNG" />
+            <ComponentRef Id="SWITCHED_RECEPTACLE32.PNG" />
+            <ComponentRef Id="SWITCHED_RECEPTACLE64.PNG" />
+            <ComponentRef Id="TELEPHONE_DISTRIBUTION_FRAME32.PNG" />
+            <ComponentRef Id="TELEPHONE_DISTRIBUTION_FRAME64.PNG" />
+            <ComponentRef Id="TELEPHONE_JACK32.PNG" />
+            <ComponentRef Id="TELEPHONE_JACK64.PNG" />
+            <ComponentRef Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME32.PNG" />
+            <ComponentRef Id="TELEPHONE_MAIN_DISTRIBUTION_FRAME64.PNG" />
+            <ComponentRef Id="TELEPHONE_SOCKET32.PNG" />
+            <ComponentRef Id="TELEPHONE_SOCKET64.PNG" />
+            <ComponentRef Id="TELEVISION_JACK32.PNG" />
+            <ComponentRef Id="TELEVISION_JACK64.PNG" />
+            <ComponentRef Id="THERMOSTAT32.PNG" />
+            <ComponentRef Id="THERMOSTAT64.PNG" />
+            <ComponentRef Id="TUBE_LIGHT32.PNG" />
+            <ComponentRef Id="TUBE_LIGHT64.PNG" />
+            <ComponentRef Id="VANITY_LIGHT32.PNG" />
+            <ComponentRef Id="VANITY_LIGHT64.PNG" />
+            <ComponentRef Id="VAPOR_PROTECTED_LIGHT32.PNG" />
+            <ComponentRef Id="VAPOR_PROTECTED_LIGHT64.PNG" />
+            <ComponentRef Id="VIDEO_ENTRY_PANEL32.PNG" />
+            <ComponentRef Id="VIDEO_ENTRY_PANEL64.PNG" />
+            <ComponentRef Id="VIDEO_RECORDER32.PNG" />
+            <ComponentRef Id="VIDEO_RECORDER64.PNG" />
+            <ComponentRef Id="VIEW_TITLE32.PNG" />
+            <ComponentRef Id="VIEW_TITLE64.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT32.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_COMPACT_FLUORESCENT_LIGHT64.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_FIXTURE32.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_FIXTURE64.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_FLUORESCENT_LIGHT32.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_FLUORESCENT_LIGHT64.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_SPEAKER32.PNG" />
+            <ComponentRef Id="WALL_MOUNTED_SPEAKER64.PNG" />
+            <ComponentRef Id="WALL_SECTION32.PNG" />
+            <ComponentRef Id="WALL_SECTION64.PNG" />
+            <ComponentRef Id="WALL_TYPE32.PNG" />
+            <ComponentRef Id="WALL_TYPE64.PNG" />
+            <ComponentRef Id="WATERPROOF_RECEPTACLE32.PNG" />
+            <ComponentRef Id="WATERPROOF_RECEPTACLE64.PNG" />
+            <ComponentRef Id="WINDOW_NUMBER32.PNG" />
+            <ComponentRef Id="WINDOW_NUMBER64.PNG" />
+            <ComponentRef Id="WOOD_BLOCK32.PNG" />
+            <ComponentRef Id="WOOD_BLOCK64.PNG" />
+            <ComponentRef Id="WOOD_FRAME32.PNG" />
+            <ComponentRef Id="WOOD_FRAME64.PNG" />
+        </Feature>
+        <Feature Id="OpenDCL" Level="1">
+            <MergeRef Id="MergeOpenDCL" />
+        </Feature>
+        <UI />
+        <UIRef Id="WixUI_Mondo" />
+        <Icon Id="logo.ico" SourceFile="D:\WORK\2061 Cad Standards Architect\Work\logo.ico" />
+    </Product>
+</Wix>
